@@ -49,7 +49,7 @@
 					"descriptor": {
 						"image": {
 							"alt": "Image",
-							"src": "repository_path/img/new_logo_hackister.png",
+							"src": "https://d2fi4ri5dhpqd1.cloudfront.net/public/resources/img/new_logo_hackister.png",
 							"href": "https://beefree.io"
 						},
 						"style": {
@@ -382,7 +382,7 @@
 					"descriptor": {
 						"image": {
 							"alt": "Image",
-							"src": "repository_path/img/bee_rocket.png",
+							"src": "https://d2fi4ri5dhpqd1.cloudfront.net/public/resources/img/bee_rocket.png",
 							"href": "https://beefree.io"
 						},
 						"style": {
