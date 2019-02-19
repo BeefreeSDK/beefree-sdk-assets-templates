@@ -49,7 +49,7 @@
 					"descriptor": {
 						"image": {
 							"alt": "Image",
-							"src": "https://d2fi4ri5dhpqd1.cloudfront.net/public/resources/img/placeholder_01.png",
+							"src": "repository_path/img/placeholder_01.png",
 							"href": "https://beefree.io"
 						},
 						"style": {
@@ -215,7 +215,7 @@
 					"descriptor": {
 						"image": {
 							"alt": "Image",
-							"src": "https://d2fi4ri5dhpqd1.cloudfront.net/public/resources/img/placeholder_06.png",
+							"src": "repository_path/img/placeholder_06.png",
 							"href": "https://beefree.io"
 						},
 						"style": {
@@ -444,7 +444,7 @@
 					"descriptor": {
 						"image": {
 							"alt": "Image",
-							"src": "https://d2fi4ri5dhpqd1.cloudfront.net/public/resources/img/placeholder_03.png",
+							"src": "repository_path/img/placeholder_03.png",
 							"href": "https://beefree.io"
 						},
 						"style": {
@@ -790,7 +790,7 @@
 					"descriptor": {
 						"image": {
 							"alt": "Image",
-							"src": "https://d2fi4ri5dhpqd1.cloudfront.net/public/resources/img/placeholder_03.png",
+							"src": "repository_path/img/placeholder_03.png",
 							"href": "https://beefree.io"
 						},
 						"style": {
@@ -1136,7 +1136,7 @@
 					"descriptor": {
 						"image": {
 							"alt": "Image",
-							"src": "https://d2fi4ri5dhpqd1.cloudfront.net/public/resources/img/placeholder_03.png",
+							"src": "repository_path/img/placeholder_03.png",
 							"href": "https://beefree.io"
 						},
 						"style": {
@@ -1621,7 +1621,7 @@
 								"image": {
 									"prefix": "https://www.facebook.com/",
 									"alt": "Facebook",
-									"src": "https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/circle-color/facebook.png",
+									"src": "repository_path/img/facebook.png",
 									"title": "Facebook",
 									"href": ""
 								},
@@ -1632,7 +1632,7 @@
 								"image": {
 									"prefix": "http://twitter.com/",
 									"alt": "Twitter",
-									"src": "https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/circle-color/twitter.png",
+									"src": "repository_path/img/twitter.png",
 									"title": "Twitter",
 									"href": ""
 								},
@@ -1643,7 +1643,7 @@
 								"image": {
 									"prefix": "http://plus.google.com/",
 									"alt": "Google+",
-									"src": "https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/circle-color/googleplus.png",
+									"src": "repository_path/img/googleplus.png",
 									"title": "Google+",
 									"href": ""
 								},
