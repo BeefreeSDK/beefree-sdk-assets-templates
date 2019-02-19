@@ -1,0 +1,480 @@
+{
+    "page": {
+        "template": {
+            "name": "template-base",
+            "type": "basic",
+            "version": "2.0.0"
+        },
+        "description": "",
+        "title": "",
+        "rows": [
+            {
+                "columns": [
+                    {
+                        "style": {
+                            "padding-bottom": "20px",
+                            "padding-right": "0px",
+                            "border-left": "0px solid transparent",
+                            "padding-top": "20px",
+                            "border-bottom": "0px solid transparent",
+                            "border-top": "0px solid transparent",
+                            "background-color": "transparent",
+                            "padding-left": "0px",
+                            "border-right": "0px solid transparent"
+                        },
+                        "modules": [
+                            {
+                                "locked": false,
+                                "type": "mailup-bee-newsletter-modules-text",
+                                "descriptor": {
+                                    "style": {
+                                        "padding-bottom": "0px",
+                                        "padding-left": "10px",
+                                        "padding-right": "10px",
+                                        "padding-top": "10px"
+                                    },
+                                    "computedStyle": {
+                                        "hideContentOnMobile": false
+                                    },
+                                    "text": {
+                                        "style": {
+                                            "font-family": "inherit",
+                                            "line-height": "120%",
+                                            "color": "#7c4b96"
+                                        },
+                                        "html": "<div class=\"txtTinyMce-wrapper\" style=\"font-size: 12px; line-height: 14px;\" data-mce-style=\"font-size: 12px; line-height: 14px;\">\n<p style=\"font-size: 18px; line-height: 21px;\" data-mce-style=\"font-size: 18px; line-height: 21px;\"><span style=\"font-size: 22px; line-height: 26px;\" data-mce-style=\"font-size: 22px; line-height: 26px;\"><strong><span style=\"line-height: 26px; font-size: 22px;\" data-mce-style=\"line-height: 26px; font-size: 22px;\">Time for great email design</span></strong></span></p>\n</div>",
+                                        "computedStyle": {
+                                            "linkColor": "#7c4b96"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "locked": false,
+                                "type": "mailup-bee-newsletter-modules-text",
+                                "descriptor": {
+                                    "style": {
+                                        "padding-bottom": "10px",
+                                        "padding-left": "10px",
+                                        "padding-right": "10px",
+                                        "padding-top": "5px"
+                                    },
+                                    "computedStyle": {
+                                        "hideContentOnMobile": false
+                                    },
+                                    "text": {
+                                        "style": {
+                                            "font-family": "inherit",
+                                            "line-height": "120%",
+                                            "color": "#777777"
+                                        },
+                                        "html": "<div class=\"txtTinyMce-wrapper\" style=\"font-size: 12px; line-height: 14px;\" data-mce-style=\"font-size: 12px; line-height: 14px;\">\n<p style=\"font-size: 14px; line-height: 16px;\" data-mce-style=\"font-size: 14px; line-height: 16px;\">I'm a New Text block ready for your Message content.</p>\n</div>",
+                                        "computedStyle": {
+                                            "linkColor": "#7c4b96"
+                                        }
+                                    }
+                                }
+                            }
+                        ],
+                        "grid-columns": 12
+                    }
+                ],
+                "locked": false,
+                "content": {
+                    "style": {
+                        "background-image": "none",
+                        "background-repeat": "no-repeat",
+                        "width": "500px",
+                        "background-position": "top left",
+                        "background-color": "transparent",
+                        "color": "#333"
+                    },
+                    "computedStyle": {
+                        "rowColStackOnMobile": true
+                    }
+                },
+                "container": {
+                    "style": {
+                        "background-image": "none",
+                        "background-color": "#E5E5E5",
+                        "background-position": "top left",
+                        "background-repeat": "no-repeat"
+                    }
+                },
+                "type": "one-column-empty"
+            },
+            {
+                "columns": [
+                    {
+                        "style": {
+                            "padding-bottom": "10px",
+                            "padding-right": "10px",
+                            "border-left": "0px solid transparent",
+                            "padding-top": "10px",
+                            "border-bottom": "0px solid transparent",
+                            "border-top": "0px solid transparent",
+                            "background-color": "transparent",
+                            "padding-left": "10px",
+                            "border-right": "0px solid transparent"
+                        },
+                        "modules": [
+                            {
+                                "locked": false,
+                                "type": "mailup-bee-newsletter-modules-image",
+                                "descriptor": {
+                                    "style": {
+                                        "padding-bottom": "0px",
+                                        "padding-left": "0px",
+                                        "padding-top": "0px",
+                                        "padding-right": "0px",
+                                        "width": "100%"
+                                    },
+                                    "image": {
+                                        "href": "https://beefree.io",
+                                        "alt": "Image",
+                                        "src": "img/placeholder_big_2.png"
+                                    },
+                                    "computedStyle": {
+                                        "class": "center  autowidth  fullwidth",
+                                        "width": 480
+                                    }
+                                }
+                            }
+                        ],
+                        "grid-columns": 12
+                    }
+                ],
+                "locked": false,
+                "content": {
+                    "style": {
+                        "background-image": "none",
+                        "background-repeat": "no-repeat",
+                        "width": "500px",
+                        "background-position": "top left",
+                        "background-color": "transparent",
+                        "color": "#000000"
+                    },
+                    "computedStyle": {
+                        "rowColStackOnMobile": true
+                    }
+                },
+                "container": {
+                    "style": {
+                        "background-image": "none",
+                        "background-color": "#f3f3f3",
+                        "background-position": "top left",
+                        "background-repeat": "no-repeat"
+                    }
+                },
+                "type": "one-column-empty"
+            },
+            {
+                "columns": [
+                    {
+                        "style": {
+                            "padding-bottom": "30px",
+                            "padding-right": "0px",
+                            "border-left": "0px solid transparent",
+                            "padding-top": "30px",
+                            "border-bottom": "0px solid transparent",
+                            "border-top": "0px solid transparent",
+                            "background-color": "transparent",
+                            "padding-left": "0px",
+                            "border-right": "0px solid transparent"
+                        },
+                        "modules": [
+                            {
+                                "locked": false,
+                                "type": "mailup-bee-newsletter-modules-text",
+                                "descriptor": {
+                                    "style": {
+                                        "padding-bottom": "0px",
+                                        "padding-left": "10px",
+                                        "padding-right": "10px",
+                                        "padding-top": "10px"
+                                    },
+                                    "computedStyle": {
+                                        "hideContentOnMobile": false
+                                    },
+                                    "text": {
+                                        "style": {
+                                            "font-family": "inherit",
+                                            "line-height": "120%",
+                                            "color": "#2d2d2d"
+                                        },
+                                        "html": "<div class=\"txtTinyMce-wrapper\" style=\"font-size: 12px; line-height: 14px;\" data-mce-style=\"font-size: 12px; line-height: 14px;\">\n<p style=\"font-size: 14px; line-height: 16px;\" data-mce-style=\"font-size: 14px; line-height: 16px;\"><span style=\"font-size: 24px; line-height: 28px;\" data-mce-style=\"font-size: 24px; line-height: 28px;\"><strong><span style=\"line-height: 28px; font-size: 24px;\" data-mce-style=\"line-height: 28px; font-size: 24px;\">I'm a very important title</span></strong></span></p>\n</div>",
+                                        "computedStyle": {
+                                            "linkColor": "#7c4b96"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "locked": false,
+                                "type": "mailup-bee-newsletter-modules-text",
+                                "descriptor": {
+                                    "style": {
+                                        "padding-bottom": "5px",
+                                        "padding-left": "10px",
+                                        "padding-right": "10px",
+                                        "padding-top": "5px"
+                                    },
+                                    "computedStyle": {
+                                        "hideContentOnMobile": false
+                                    },
+                                    "text": {
+                                        "style": {
+                                            "font-family": "inherit",
+                                            "line-height": "120%",
+                                            "color": "#777777"
+                                        },
+                                        "html": "<div class=\"txtTinyMce-wrapper\" style=\"font-size: 12px; line-height: 14px;\" data-mce-style=\"font-size: 12px; line-height: 14px;\">\n<p style=\"font-size: 14px; line-height: 16px;\" data-mce-style=\"font-size: 14px; line-height: 16px;\"><span style=\"font-size: 16px; line-height: 19px;\" data-mce-style=\"font-size: 16px; line-height: 19px;\">I'm a subtitle: not as big as the title, but more descriptive</span></p>\n</div>",
+                                        "computedStyle": {
+                                            "linkColor": "#7c4b96"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "locked": false,
+                                "type": "mailup-bee-newsletter-modules-text",
+                                "descriptor": {
+                                    "style": {
+                                        "padding-bottom": "10px",
+                                        "padding-left": "10px",
+                                        "padding-right": "10px",
+                                        "padding-top": "15px"
+                                    },
+                                    "computedStyle": {
+                                        "hideContentOnMobile": false
+                                    },
+                                    "text": {
+                                        "style": {
+                                            "font-family": "inherit",
+                                            "line-height": "120%",
+                                            "color": "#aaaaaa"
+                                        },
+                                        "html": "<div class=\"txtTinyMce-wrapper\" style=\"font-size: 12px; line-height: 14px;\" data-mce-style=\"font-size: 12px; line-height: 14px;\">\n<p style=\"font-size: 14px; line-height: 16px;\" data-mce-style=\"font-size: 14px; line-height: 16px;\">I'm a block of text and I like latin. Pellentesque vel dui sed orci faucibus iaculis. Suspendisse dictum magna id purus tincidunt rutrum. Hey look, I'm a fake link.</p>\n</div>",
+                                        "computedStyle": {
+                                            "linkColor": "#7c4b96"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "locked": false,
+                                "type": "mailup-bee-newsletter-modules-button",
+                                "descriptor": {
+                                    "style": {
+                                        "padding-bottom": "10px",
+                                        "padding-left": "10px",
+                                        "padding-right": "10px",
+                                        "padding-top": "15px",
+                                        "text-align": "center"
+                                    },
+                                    "computedStyle": {
+                                        "width": 158,
+                                        "height": 38
+                                    },
+                                    "button": {
+                                        "style": {
+                                            "padding-right": "20px",
+                                            "line-height": "180%",
+                                            "padding-top": "5px",
+                                            "width": "40%",
+                                            "border-top": "0px solid transparent",
+                                            "background-color": "#7c4b96",
+                                            "border-right": "0px solid transparent",
+                                            "color": "#ffffff",
+                                            "font-family": "inherit",
+                                            "padding-bottom": "5px",
+                                            "border-radius": "5px",
+                                            "border-bottom": "0px solid transparent",
+                                            "border-left": "0px solid transparent",
+                                            "max-width": "100%",
+                                            "padding-left": "20px"
+                                        },
+                                        "label": "<div class=\"txtTinyMce-wrapper\" style=\"font-size: 12px; line-height: 21px;\">\n<p style=\"font-family: inherit; font-size: 16px; line-height: 28px;\"><span style=\"font-size: 14px; line-height: 25px;\">READ MORE</span></p>\n</div>",
+                                        "href": ""
+                                    }
+                                }
+                            }
+                        ],
+                        "grid-columns": 12
+                    }
+                ],
+                "locked": false,
+                "content": {
+                    "style": {
+                        "background-image": "none",
+                        "background-repeat": "no-repeat",
+                        "width": "500px",
+                        "background-position": "top left",
+                        "background-color": "transparent",
+                        "color": "#333"
+                    },
+                    "computedStyle": {
+                        "rowColStackOnMobile": true
+                    }
+                },
+                "container": {
+                    "style": {
+                        "background-image": "none",
+                        "background-color": "transparent",
+                        "background-position": "top left",
+                        "background-repeat": "no-repeat"
+                    }
+                },
+                "type": "one-column-empty"
+            },
+            {
+                "columns": [
+                    {
+                        "style": {
+                            "padding-bottom": "25px",
+                            "padding-right": "0px",
+                            "border-left": "0px solid transparent",
+                            "padding-top": "25px",
+                            "border-bottom": "0px solid transparent",
+                            "border-top": "0px solid transparent",
+                            "background-color": "transparent",
+                            "padding-left": "0px",
+                            "border-right": "0px solid transparent"
+                        },
+                        "modules": [
+                            {
+                                "locked": false,
+                                "type": "mailup-bee-newsletter-modules-social",
+                                "descriptor": {
+                                    "style": {
+                                        "padding-bottom": "10px",
+                                        "padding-left": "10px",
+                                        "padding-right": "10px",
+                                        "padding-top": "10px",
+                                        "text-align": "center"
+                                    },
+                                    "computedStyle": {
+                                        "iconsDefaultWidth": 32,
+                                        "width": 151,
+                                        "height": 52,
+                                        "padding": "0 5px 0 0"
+                                    },
+                                    "iconsList": {
+                                        "icons": [
+                                            {
+                                                "image": {
+                                                    "href": "http://twitter.com/",
+                                                    "prefix": "http://twitter.com/",
+                                                    "title": "Twitter",
+                                                    "alt": "Twitter",
+                                                    "src": "repository_path/img/t-circle-white/twitter.png"
+                                                },
+                                                "name": "twitter",
+                                                "type": "follow",
+                                                "text": ""
+                                            },
+                                            {
+                                                "image": {
+                                                    "href": "https://www.facebook.com/",
+                                                    "prefix": "https://www.facebook.com/",
+                                                    "title": "Facebook",
+                                                    "alt": "Facebook",
+                                                    "src": "repository_path/img/t-circle-white/facebook.png"
+                                                },
+                                                "name": "facebook",
+                                                "type": "follow",
+                                                "text": ""
+                                            },
+                                            {
+                                                "image": {
+                                                    "href": "https://instagram.com/",
+                                                    "prefix": "https://instagram.com/",
+                                                    "title": "Instagram",
+                                                    "alt": "Instagram",
+                                                    "src": "repository_path/img/t-circle-white/instagram@2x.png"
+                                                },
+                                                "name": "instagram",
+                                                "type": "follow",
+                                                "text": ""
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "locked": false,
+                                "type": "mailup-bee-newsletter-modules-text",
+                                "descriptor": {
+                                    "style": {
+                                        "padding-bottom": "10px",
+                                        "padding-left": "10px",
+                                        "padding-right": "10px",
+                                        "padding-top": "10px"
+                                    },
+                                    "computedStyle": {
+                                        "hideContentOnMobile": false
+                                    },
+                                    "text": {
+                                        "style": {
+                                            "font-family": "inherit",
+                                            "line-height": "120%",
+                                            "color": "#bbbbbb"
+                                        },
+                                        "html": "<div class=\"txtTinyMce-wrapper\" style=\"font-size: 12px; line-height: 14px;\" data-mce-style=\"font-size: 12px; line-height: 14px;\">\n<p style=\"font-size: 18px; line-height: 21px; text-align: center;\" data-mce-style=\"font-size: 18px; line-height: 21px; text-align: center;\"><span style=\"font-size: 14px; line-height: 16px;\" data-mce-style=\"font-size: 14px; line-height: 16px;\">This is a sample template from BEE free email editor</span><br><span style=\"font-size: 14px; line-height: 16px;\" data-mce-style=\"font-size: 14px; line-height: 16px;\">Visit <span style=\"text-decoration: underline; line-height: 16px; font-size: 14px; color: rgb(255, 255, 255);\" data-mce-style=\"text-decoration: underline; line-height: 16px; font-size: 14px; color: rgb(255, 255, 255);\"><a style=\"color: #ffffff; text-decoration: underline;\" href=\"https://beefree.io\" target=\"_blank\" rel=\"noopener\">beefree.io</a></span>&nbsp;to create beautiful and rich email messages at no cost.</span></p>\n</div>",
+                                        "computedStyle": {
+                                            "linkColor": "#7c4b96"
+                                        }
+                                    }
+                                }
+                            }
+                        ],
+                        "grid-columns": 12
+                    }
+                ],
+                "locked": false,
+                "content": {
+                    "style": {
+                        "background-image": "none",
+                        "background-repeat": "no-repeat",
+                        "width": "500px",
+                        "background-position": "top left",
+                        "background-color": "transparent",
+                        "color": "#333"
+                    },
+                    "computedStyle": {
+                        "rowColStackOnMobile": true
+                    }
+                },
+                "container": {
+                    "style": {
+                        "background-image": "none",
+                        "background-color": "#2d2d2d",
+                        "background-position": "top left",
+                        "background-repeat": "no-repeat"
+                    }
+                },
+                "type": "one-column-empty"
+            }
+        ],
+        "body": {
+            "webFonts": [],
+            "content": {
+                "style": {
+                    "font-family": "Arial, 'Helvetica Neue', Helvetica, sans-serif",
+                    "color": "#000000"
+                },
+                "computedStyle": {
+                    "messageBackgroundColor": "transparent",
+                    "linkColor": "#7c4b96",
+                    "messageWidth": "500px"
+                }
+            },
+            "container": {
+                "style": {
+                    "background-color": "#FFFFFF"
+                }
+            },
+            "type": "mailup-bee-page-properties"
+        }
+    }
+}
