@@ -1,0 +1,20 @@
+{
+    "theme": "default",
+    "layout": "drawer-right",
+    "backgroundImage": "",
+    "backgroundImageMobile": "",
+    "customStyles": {
+        "container": {
+            "backgroundColor": "#1e2f40",
+            "borderRadius": "0",
+            "padding": "0"
+        },
+        "content": {
+            "justifyContent": "auto"
+        }
+    },
+    "customLayout": {
+        "wrapper": {}
+    },
+    "contentWidth": "260"
+}

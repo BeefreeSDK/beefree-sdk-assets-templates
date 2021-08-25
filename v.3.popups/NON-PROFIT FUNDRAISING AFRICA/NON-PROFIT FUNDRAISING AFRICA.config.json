@@ -1,0 +1,12 @@
+{
+    "theme": "material",
+    "layout": "default",
+    "backgroundImage": "",
+    "backgroundImageMobile": "",
+    "customStyles": {
+        "container": {}
+    },
+    "customLayout": {
+        "wrapper": {}
+    }
+}

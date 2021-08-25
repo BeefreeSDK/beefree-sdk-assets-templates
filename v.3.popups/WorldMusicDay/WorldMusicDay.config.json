@@ -1,0 +1,20 @@
+{
+    "theme": "default",
+    "layout": "classic-bottom-right",
+    "backgroundImage": "https://d153pg9b3vec03.cloudfront.net/public/users/Integrators/BeeAppQAPopup/test1-clientside/background.jpg",
+    "backgroundImageMobile": "https://d153pg9b3vec03.cloudfront.net/public/users/Integrators/BeeAppQAPopup/test1-clientside/background.mobile.jpg",
+    "customStyles": {
+        "container": {
+            "backgroundColor": "#171719",
+            "borderRadius": "0",
+            "padding": "0"
+        },
+        "header": {
+            "height": "0"
+        }
+    },
+    "customLayout": {
+        "wrapper": {}
+    },
+    "contentWidth": "400"
+}
