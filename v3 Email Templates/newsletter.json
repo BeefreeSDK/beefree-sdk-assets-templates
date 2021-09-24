@@ -13,7 +13,7 @@
                                         "width": 338
                                     },
                                     "image": {
-                                        "src": "img/logo_1.png",
+                                        "src": "repository_path/img/logo_1.png",
                                         "href": "https://beefree.io",
                                         "alt": "Image"
                                     },
@@ -236,7 +236,7 @@
                                         "width": 371.25000000000006
                                     },
                                     "image": {
-                                        "src": "img/rocket-color.png",
+                                        "src": "repository_path/img/rocket-color.png",
                                         "href": "https://beefree.io",
                                         "alt": "rocket"
                                     },
@@ -479,7 +479,7 @@
                                         "width": 103
                                     },
                                     "image": {
-                                        "src": "img/world.png",
+                                        "src": "repository_path/img/world.png",
                                         "dynamicSrc": "",
                                         "href": "https://beefree.io",
                                         "alt": "Image"
@@ -639,7 +639,7 @@
                                         "width": 110
                                     },
                                     "image": {
-                                        "src": "img/chat.png",
+                                        "src": "repository_path/img/chat.png",
                                         "href": "https://beefree.io",
                                         "alt": "Image"
                                     },
@@ -798,7 +798,7 @@
                                         "width": 101.25
                                     },
                                     "image": {
-                                        "src": "img/idea.png",
+                                        "src": "repository_path/img/idea.png",
                                         "href": "https://beefree.io",
                                         "alt": "Image"
                                     },

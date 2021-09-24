@@ -132,7 +132,7 @@
                                     "image": {
                                         "href": "https://beefree.io",
                                         "alt": "Image",
-                                        "src": "img/placeholder_big_2.png"
+                                        "src": "repository_path/img/placeholder_big_2.png"
                                     },
                                     "computedStyle": {
                                         "class": "center  autowidth  fullwidth",

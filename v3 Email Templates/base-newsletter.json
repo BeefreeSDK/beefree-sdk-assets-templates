@@ -15,7 +15,7 @@
                                     "image": {
                                         "alt": "Image",
                                         "href": "https://beefree.io",
-                                        "src": "img/placeholder_logo_3.png"
+                                        "src": "repository_path/img/placeholder_logo_3.png"
                                     },
                                     "style": {
                                         "padding-bottom": "10px",
@@ -168,7 +168,7 @@
                                     "image": {
                                         "alt": "Image",
                                         "href": "https://beefree.io",
-                                        "src": "img/placeholder_big_2.png"
+                                        "src": "repository_path/img/placeholder_big_2.png"
                                     },
                                     "style": {
                                         "padding-bottom": "0px",
@@ -319,7 +319,7 @@
                                     },
                                     "image": {
                                         "alt": "Image",
-                                        "src": "img/placeholder_medium_1.png",
+                                        "src": "repository_path/img/placeholder_medium_1.png",
                                         "href": "https://beefree.io",
                                         "dynamicSrc": ""
                                     },
@@ -503,7 +503,7 @@
                                     "image": {
                                         "alt": "Image",
                                         "href": "https://beefree.io",
-                                        "src": "img/placeholder_medium_1.png"
+                                        "src": "repository_path/img/placeholder_medium_1.png"
                                     },
                                     "style": {
                                         "padding-bottom": "0px",
@@ -685,7 +685,7 @@
                                     "image": {
                                         "alt": "Image",
                                         "href": "https://beefree.io",
-                                        "src": "img/placeholder_medium_1.png"
+                                        "src": "repository_path/img/placeholder_medium_1.png"
                                     },
                                     "style": {
                                         "padding-bottom": "0px",

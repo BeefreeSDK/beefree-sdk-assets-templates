@@ -79,7 +79,7 @@
                                     "image": {
                                         "href": "https://beefree.io",
                                         "alt": "Image",
-                                        "src": "img/placeholder_logo_3.png"
+                                        "src": "repository_path/img/placeholder_logo_3.png"
                                     },
                                     "computedStyle": {
                                         "class": "center fixedwidth",
@@ -209,7 +209,7 @@
                                     "image": {
                                         "href": "https://beefree.io",
                                         "alt": "Image",
-                                        "src": "img/placeholder_big_2.png"
+                                        "src": "repository_path/img/placeholder_big_2.png"
                                     },
                                     "computedStyle": {
                                         "class": "center  autowidth  fullwidth",
@@ -406,7 +406,7 @@
                                     "image": {
                                         "href": "https://beefree.io",
                                         "alt": "Image",
-                                        "src": "img/placeholder_medium-h.png"
+                                        "src": "repository_path/img/placeholder_medium-h.png"
                                     },
                                     "computedStyle": {
                                         "class": "center  autowidth  fullwidth",
