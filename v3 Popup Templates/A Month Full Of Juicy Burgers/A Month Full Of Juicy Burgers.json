@@ -1,1 +1,272 @@
-﻿{"page":{"body":{"container":{"style":{"background-color":"#e2dede"}},"content":{"computedStyle":{"linkColor":"#FF819C","messageBackgroundColor":"transparent","messageWidth":"260px","messageWidthMobile":"250px"},"style":{"color":"#000000","font-family":"'Lato', Tahoma, Verdana, Segoe, sans-serif"}},"type":"mailup-bee-page-properties","webFonts":[{"fontFamily":"'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif","name":"Montserrat","url":"https://fonts.googleapis.com/css?family=Montserrat"},{"family":"'Helvetica Neue', Helvetica, Arial, sans-serif","fontFamily":"'Helvetica Neue', Helvetica, Arial, sans-serif","fontName":"Helvetica","name":"Helvetica"},{"family":"'Lato', Tahoma, Verdana, Segoe, sans-serif","fontFamily":"'Lato', Tahoma, Verdana, Segoe, sans-serif","fontName":"Lato","name":"Lato","url":"https://fonts.googleapis.com/css?family=Lato"},{"family":"'Roboto', Tahoma, Verdana, Segoe, sans-serif","fontFamily":"'Roboto', Tahoma, Verdana, Segoe, sans-serif","fontName":"Roboto","name":"Roboto","url":"https://fonts.googleapis.com/css?family=Roboto"},{"family":"'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif","fontFamily":"'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif","fontName":"Open Sans","name":"Open Sans","url":"https://fonts.googleapis.com/css?family=Open+Sans"},{"family":"Verdana, Geneva, sans-serif","fontFamily":"Verdana, Geneva, sans-serif","fontName":"Verdana","name":"Verdana"},{"family":"Tahoma, Verdana, Segoe, sans-serif","fontFamily":"Tahoma, Verdana, Segoe, sans-serif","fontName":"Tahoma","name":"Tahoma"},{"family":"ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro,Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif","fontFamily":"ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro,Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif","fontName":"ヒラギノ角ゴ Pro W3","name":"ヒラギノ角ゴ Pro W3"},{"fontFamily":"'Akaya Telivigala', arial","name":"Akaya Telivigala","url":"https://fonts.googleapis.com/css?family=Akaya+Telivigala"},{"family":"'Droid Serif', Georgia, Times, 'Times New Roman', serif","fontFamily":"'Droid Serif', Georgia, Times, 'Times New Roman', serif","fontName":"Droid Serif","name":"Droid Serif","url":"https://fonts.googleapis.com/css?family=Droid+Serif"}]},"description":"BF-ecommerce-template","rows":[{"container":{"style":{"background-color":"transparent","background-image":"none","background-repeat":"no-repeat","background-position":"top left"}},"content":{"style":{"background-color":"transparent","color":"#000000","width":"800px","background-image":"url('https://d153pg9b3vec03.cloudfront.net/public/users/Integrators/BeeAppQAPopup/test1-clientside/editor_images/ebcc0749-9a0b-459a-8309-4ce051b0584f.png')","background-repeat":"no-repeat","background-position":"center top"},"computedStyle":{"rowColStackOnMobile":true,"rowReverseColStackOnMobile":false}},"columns":[{"style":{"background-color":"transparent","border-bottom":"0px solid transparent","border-left":"0px solid transparent","border-right":"0px solid transparent","border-top":"0px solid transparent","padding-bottom":"5px","padding-left":"0px","padding-right":"0px","padding-top":"5px"},"modules":[{"type":"mailup-bee-newsletter-modules-image","descriptor":{"image":{"alt":"","src":"https://d153pg9b3vec03.cloudfront.net/public/users/Integrators/BeeAppQAPopup/test1-clientside/Burger_month.png","href":"","width":"584px","height":"1024px"},"style":{"width":"100%","padding-top":"0px","padding-right":"0px","padding-bottom":"0px","padding-left":"0px"},"computedStyle":{"class":"center fixedwidth","width":"169px"}},"uuid":"3e5755cd-6e7f-4cbb-b704-950b5415b9ae"},{"type":"mailup-bee-newsletter-modules-heading","descriptor":{"heading":{"title":"h1","text":"<strong>BURGER MONTH</strong>","style":{"color":"#fefefe","font-size":"24px","font-family":"inherit","link-color":"#E01253","line-height":"150%","text-align":"center","direction":"ltr","font-weight":"normal","letter-spacing":"0px"}},"style":{"width":"100%","text-align":"center","padding-top":"0px","padding-right":"0px","padding-bottom":"0px","padding-left":"0px"},"computedStyle":{"width":52,"height":42}},"uuid":"83fc91bf-1b17-4ed4-becb-417897a4f2a3"},{"type":"mailup-bee-newsletter-modules-heading","descriptor":{"heading":{"title":"h1","text":"<strong>CELEBRATE IT WITH US</strong>","style":{"color":"#fff0d7","font-size":"21px","font-family":"inherit","link-color":"#E01253","line-height":"150%","text-align":"center","direction":"ltr","font-weight":"normal","letter-spacing":"0px"}},"style":{"width":"100%","text-align":"center","padding-top":"0px","padding-right":"0px","padding-bottom":"0px","padding-left":"0px"},"computedStyle":{"width":52,"height":42}},"uuid":"8617309d-ff4a-4315-bfa6-e87fce7d5fbf"},{"type":"mailup-bee-newsletter-modules-button","descriptor":{"button":{"label":"<div class=\"txtTinyMce-wrapper\" style=\"font-size: 12px; line-height: 14px;\" data-mce-style=\"font-size: 12px; line-height: 14px;\"><p style=\"font-size: 16px; line-height: 19px; word-break: break-word;\" data-mce-style=\"font-size: 16px; line-height: 19px;\"><span style=\"font-size: 12px; line-height: 14px;\" data-mce-style=\"font-size: 12px; line-height: 14px;\">PROMO CODE</span><strong><span style=\"font-size: 12px; line-height: 14px;\" data-mce-style=\"font-size: 12px; line-height: 14px;\">:</span> 20BURGERMONTH</strong></p></div>","href":"","style":{"font-family":"inherit","background-color":"#fff0d7","border-radius":"2px","border-top":"0px solid transparent","border-right":"0px solid transparent","border-bottom":"0px solid transparent","border-left":"0px solid transparent","color":"#1e2f40","line-height":"120%","padding-top":"5px","padding-right":"10px","padding-bottom":"10px","padding-left":"10px","width":"100%","max-width":"100%"}},"style":{"text-align":"center","padding-top":"10px","padding-right":"10px","padding-bottom":"10px","padding-left":"10px"},"computedStyle":{"width":240,"height":53,"hideContentOnMobile":false}},"uuid":"5ee7c68c-188e-4832-bc32-f4e57d0d00f3"}],"grid-columns":12,"uuid":"1da78455-e254-4920-99cc-0eba4489755f"}],"type":"one-column-empty","uuid":"342d85a7-5a01-44be-8b3e-19721d094567"}],"template":{"name":"template-base","type":"basic","version":"2.0.0"},"title":"BF-ecommerce-template"},"comments":{}}
+﻿{
+    "page": {
+        "body": {
+            "container": {
+                "style": {
+                    "background-color": "#e2dede"
+                }
+            },
+            "content": {
+                "computedStyle": {
+                    "linkColor": "#FF819C",
+                    "messageBackgroundColor": "transparent",
+                    "messageWidth": "260px",
+                    "messageWidthMobile": "250px"
+                },
+                "style": {
+                    "color": "#000000",
+                    "font-family": "'Lato', Tahoma, Verdana, Segoe, sans-serif"
+                }
+            },
+            "type": "mailup-bee-page-properties",
+            "webFonts": [
+                {
+                    "fontFamily": "'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif",
+                    "name": "Montserrat",
+                    "url": "https://fonts.googleapis.com/css?family=Montserrat"
+                },
+                {
+                    "family": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+                    "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+                    "fontName": "Helvetica",
+                    "name": "Helvetica"
+                },
+                {
+                    "family": "'Lato', Tahoma, Verdana, Segoe, sans-serif",
+                    "fontFamily": "'Lato', Tahoma, Verdana, Segoe, sans-serif",
+                    "fontName": "Lato",
+                    "name": "Lato",
+                    "url": "https://fonts.googleapis.com/css?family=Lato"
+                },
+                {
+                    "family": "'Roboto', Tahoma, Verdana, Segoe, sans-serif",
+                    "fontFamily": "'Roboto', Tahoma, Verdana, Segoe, sans-serif",
+                    "fontName": "Roboto",
+                    "name": "Roboto",
+                    "url": "https://fonts.googleapis.com/css?family=Roboto"
+                },
+                {
+                    "family": "'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                    "fontFamily": "'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                    "fontName": "Open Sans",
+                    "name": "Open Sans",
+                    "url": "https://fonts.googleapis.com/css?family=Open+Sans"
+                },
+                {
+                    "family": "Verdana, Geneva, sans-serif",
+                    "fontFamily": "Verdana, Geneva, sans-serif",
+                    "fontName": "Verdana",
+                    "name": "Verdana"
+                },
+                {
+                    "family": "Tahoma, Verdana, Segoe, sans-serif",
+                    "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+                    "fontName": "Tahoma",
+                    "name": "Tahoma"
+                },
+                {
+                    "family": "ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro,Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif",
+                    "fontFamily": "ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro,Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif",
+                    "fontName": "ヒラギノ角ゴ Pro W3",
+                    "name": "ヒラギノ角ゴ Pro W3"
+                },
+                {
+                    "fontFamily": "'Akaya Telivigala', arial",
+                    "name": "Akaya Telivigala",
+                    "url": "https://fonts.googleapis.com/css?family=Akaya+Telivigala"
+                },
+                {
+                    "family": "'Droid Serif', Georgia, Times, 'Times New Roman', serif",
+                    "fontFamily": "'Droid Serif', Georgia, Times, 'Times New Roman', serif",
+                    "fontName": "Droid Serif",
+                    "name": "Droid Serif",
+                    "url": "https://fonts.googleapis.com/css?family=Droid+Serif"
+                }
+            ]
+        },
+        "description": "BF-ecommerce-template",
+        "rows": [
+            {
+                "container": {
+                    "style": {
+                        "background-color": "transparent",
+                        "background-image": "none",
+                        "background-repeat": "no-repeat",
+                        "background-position": "top left"
+                    }
+                },
+                "content": {
+                    "style": {
+                        "background-color": "transparent",
+                        "color": "#000000",
+                        "width": "800px",
+                        "background-image": "url('repository_path/img/Burger_bg.png')",
+                        "background-repeat": "no-repeat",
+                        "background-position": "center top"
+                    },
+                    "computedStyle": {
+                        "rowColStackOnMobile": true,
+                        "rowReverseColStackOnMobile": false
+                    }
+                },
+                "columns": [
+                    {
+                        "style": {
+                            "background-color": "transparent",
+                            "border-bottom": "0px solid transparent",
+                            "border-left": "0px solid transparent",
+                            "border-right": "0px solid transparent",
+                            "border-top": "0px solid transparent",
+                            "padding-bottom": "5px",
+                            "padding-left": "0px",
+                            "padding-right": "0px",
+                            "padding-top": "5px"
+                        },
+                        "modules": [
+                            {
+                                "type": "mailup-bee-newsletter-modules-image",
+                                "descriptor": {
+                                    "image": {
+                                        "alt": "",
+                                        "src": "repository_path/img/Burger_month.png",
+                                        "href": "",
+                                        "width": "584px",
+                                        "height": "1024px"
+                                    },
+                                    "style": {
+                                        "width": "100%",
+                                        "padding-top": "0px",
+                                        "padding-right": "0px",
+                                        "padding-bottom": "0px",
+                                        "padding-left": "0px"
+                                    },
+                                    "computedStyle": {
+                                        "class": "center fixedwidth",
+                                        "width": "169px"
+                                    }
+                                },
+                                "uuid": "3e5755cd-6e7f-4cbb-b704-950b5415b9ae"
+                            },
+                            {
+                                "type": "mailup-bee-newsletter-modules-heading",
+                                "descriptor": {
+                                    "heading": {
+                                        "title": "h1",
+                                        "text": "<strong>BURGER MONTH</strong>",
+                                        "style": {
+                                            "color": "#fefefe",
+                                            "font-size": "24px",
+                                            "font-family": "inherit",
+                                            "link-color": "#E01253",
+                                            "line-height": "150%",
+                                            "text-align": "center",
+                                            "direction": "ltr",
+                                            "font-weight": "normal",
+                                            "letter-spacing": "0px"
+                                        }
+                                    },
+                                    "style": {
+                                        "width": "100%",
+                                        "text-align": "center",
+                                        "padding-top": "0px",
+                                        "padding-right": "0px",
+                                        "padding-bottom": "0px",
+                                        "padding-left": "0px"
+                                    },
+                                    "computedStyle": {
+                                        "width": 52,
+                                        "height": 42
+                                    }
+                                },
+                                "uuid": "83fc91bf-1b17-4ed4-becb-417897a4f2a3"
+                            },
+                            {
+                                "type": "mailup-bee-newsletter-modules-heading",
+                                "descriptor": {
+                                    "heading": {
+                                        "title": "h1",
+                                        "text": "<strong>CELEBRATE IT WITH US</strong>",
+                                        "style": {
+                                            "color": "#fff0d7",
+                                            "font-size": "21px",
+                                            "font-family": "inherit",
+                                            "link-color": "#E01253",
+                                            "line-height": "150%",
+                                            "text-align": "center",
+                                            "direction": "ltr",
+                                            "font-weight": "normal",
+                                            "letter-spacing": "0px"
+                                        }
+                                    },
+                                    "style": {
+                                        "width": "100%",
+                                        "text-align": "center",
+                                        "padding-top": "0px",
+                                        "padding-right": "0px",
+                                        "padding-bottom": "0px",
+                                        "padding-left": "0px"
+                                    },
+                                    "computedStyle": {
+                                        "width": 52,
+                                        "height": 42
+                                    }
+                                },
+                                "uuid": "8617309d-ff4a-4315-bfa6-e87fce7d5fbf"
+                            },
+                            {
+                                "type": "mailup-bee-newsletter-modules-button",
+                                "descriptor": {
+                                    "button": {
+                                        "label": "<div class=\"txtTinyMce-wrapper\" style=\"font-size: 12px; line-height: 14px;\" data-mce-style=\"font-size: 12px; line-height: 14px;\"><p style=\"font-size: 16px; line-height: 19px; word-break: break-word;\" data-mce-style=\"font-size: 16px; line-height: 19px;\"><span style=\"font-size: 12px; line-height: 14px;\" data-mce-style=\"font-size: 12px; line-height: 14px;\">PROMO CODE</span><strong><span style=\"font-size: 12px; line-height: 14px;\" data-mce-style=\"font-size: 12px; line-height: 14px;\">:</span> 20BURGERMONTH</strong></p></div>",
+                                        "href": "",
+                                        "style": {
+                                            "font-family": "inherit",
+                                            "background-color": "#fff0d7",
+                                            "border-radius": "2px",
+                                            "border-top": "0px solid transparent",
+                                            "border-right": "0px solid transparent",
+                                            "border-bottom": "0px solid transparent",
+                                            "border-left": "0px solid transparent",
+                                            "color": "#1e2f40",
+                                            "line-height": "120%",
+                                            "padding-top": "5px",
+                                            "padding-right": "10px",
+                                            "padding-bottom": "10px",
+                                            "padding-left": "10px",
+                                            "width": "100%",
+                                            "max-width": "100%"
+                                        }
+                                    },
+                                    "style": {
+                                        "text-align": "center",
+                                        "padding-top": "10px",
+                                        "padding-right": "10px",
+                                        "padding-bottom": "10px",
+                                        "padding-left": "10px"
+                                    },
+                                    "computedStyle": {
+                                        "width": 240,
+                                        "height": 53,
+                                        "hideContentOnMobile": false
+                                    }
+                                },
+                                "uuid": "5ee7c68c-188e-4832-bc32-f4e57d0d00f3"
+                            }
+                        ],
+                        "grid-columns": 12,
+                        "uuid": "1da78455-e254-4920-99cc-0eba4489755f"
+                    }
+                ],
+                "type": "one-column-empty",
+                "uuid": "342d85a7-5a01-44be-8b3e-19721d094567"
+            }
+        ],
+        "template": {
+            "name": "template-base",
+            "type": "basic",
+            "version": "2.0.0"
+        },
+        "title": "BF-ecommerce-template"
+    },
+    "comments": {}
+}

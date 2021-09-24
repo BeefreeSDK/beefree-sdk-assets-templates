@@ -1,1 +1,321 @@
-﻿{"page":{"body":{"container":{"style":{"background-color":"#e2dede"}},"content":{"computedStyle":{"linkColor":"#FF819C","messageBackgroundColor":"transparent","messageWidth":"500px","messageWidthMobile":"250px"},"style":{"color":"#000000","font-family":"Tahoma, Verdana, Segoe, sans-serif"}},"type":"mailup-bee-page-properties","webFonts":[{"fontFamily":"'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif","name":"Montserrat","url":"https://fonts.googleapis.com/css?family=Montserrat"},{"family":"'Helvetica Neue', Helvetica, Arial, sans-serif","fontFamily":"'Helvetica Neue', Helvetica, Arial, sans-serif","fontName":"Helvetica","name":"Helvetica"},{"family":"'Lato', Tahoma, Verdana, Segoe, sans-serif","fontFamily":"'Lato', Tahoma, Verdana, Segoe, sans-serif","fontName":"Lato","name":"Lato","url":"https://fonts.googleapis.com/css?family=Lato"},{"family":"'Roboto', Tahoma, Verdana, Segoe, sans-serif","fontFamily":"'Roboto', Tahoma, Verdana, Segoe, sans-serif","fontName":"Roboto","name":"Roboto","url":"https://fonts.googleapis.com/css?family=Roboto"},{"family":"'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif","fontFamily":"'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif","fontName":"Open Sans","name":"Open Sans","url":"https://fonts.googleapis.com/css?family=Open+Sans"},{"family":"Verdana, Geneva, sans-serif","fontFamily":"Verdana, Geneva, sans-serif","fontName":"Verdana","name":"Verdana"},{"family":"Tahoma, Verdana, Segoe, sans-serif","fontFamily":"Tahoma, Verdana, Segoe, sans-serif","fontName":"Tahoma","name":"Tahoma"},{"family":"ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro,Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif","fontFamily":"ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro,Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif","fontName":"ヒラギノ角ゴ Pro W3","name":"ヒラギノ角ゴ Pro W3"},{"fontFamily":"'Akaya Telivigala', arial","name":"Akaya Telivigala","url":"https://fonts.googleapis.com/css?family=Akaya+Telivigala"},{"family":"'Droid Serif', Georgia, Times, 'Times New Roman', serif","fontFamily":"'Droid Serif', Georgia, Times, 'Times New Roman', serif","fontName":"Droid Serif","name":"Droid Serif","url":"https://fonts.googleapis.com/css?family=Droid+Serif"}]},"description":"BF-ecommerce-template","rows":[{"columns":[{"grid-columns":12,"modules":[{"align":"left","descriptor":{"computedStyle":{"height":42,"hideContentOnDesktop":false,"hideContentOnMobile":true,"width":52},"heading":{"style":{"color":"#ffffff","direction":"ltr","font-family":"inherit","font-size":"40px","font-weight":"normal","letter-spacing":"0px","line-height":"120%","link-color":"#E01253","text-align":"center"},"text":"<strong>HELP US TO</strong><br /><strong>GIVE HEALTH</strong>","title":"h1"},"style":{"padding-bottom":"0px","padding-left":"0px","padding-right":"0px","padding-top":"60px","text-align":"center","width":"100%"}},"locked":false,"type":"mailup-bee-newsletter-modules-heading","uuid":"110f6686-a1fe-49f1-b8e6-e60b55a825e2"},{"align":"left","descriptor":{"computedStyle":{"height":42,"hideContentOnDesktop":true,"hideContentOnMobile":false,"width":52},"heading":{"style":{"color":"#555555","direction":"ltr","font-family":"inherit","font-size":"28px","font-weight":"normal","letter-spacing":"0px","line-height":"120%","link-color":"#E01253","text-align":"center"},"text":"<strong>Access 1 month trial</strong>","title":"h1"},"style":{"padding-bottom":"0px","padding-left":"0px","padding-right":"0px","padding-top":"0px","text-align":"center","width":"100%"}},"locked":false,"type":"mailup-bee-newsletter-modules-heading","uuid":"85879775-9095-47e4-a5d4-0f5b9adc5715"},{"align":"left","descriptor":{"computedStyle":{"hideContentOnDesktop":false,"hideContentOnMobile":true},"style":{"padding-bottom":"10px","padding-left":"10px","padding-right":"10px","padding-top":"10px"},"text":{"computedStyle":{"linkColor":"#8a3b8f"},"html":"<div class=\"txtTinyMce-wrapper\" style=\"line-height: 14px; font-size: 12px;\" data-mce-style=\"line-height: 14px; font-size: 12px;\"><p style=\"font-size: 14px; line-height: 16px; word-break: break-word; text-align: center;\" data-mce-style=\"font-size: 14px; line-height: 16px; word-break: break-word; text-align: center;\">We want to make the dream of a new hospital a reality.</p></div>","style":{"color":"#f7b52e","font-family":"inherit","line-height":"120%"}}},"locked":false,"type":"mailup-bee-newsletter-modules-text","uuid":"31103c43-1ead-46e7-b51c-5f93ac200df5"},{"align":"left","descriptor":{"computedStyle":{"hideContentOnDesktop":true,"hideContentOnMobile":false},"style":{"padding-bottom":"10px","padding-left":"10px","padding-right":"10px","padding-top":"10px"},"text":{"computedStyle":{"linkColor":"#8a3b8f"},"html":"<div class=\"txtTinyMce-wrapper\" style=\"line-height: 14px; font-size: 12px;\" data-mce-style=\"line-height: 14px; font-size: 12px;\"><p style=\"font-size: 14px; line-height: 16px; word-break: break-word; text-align: center;\" data-mce-style=\"font-size: 14px; line-height: 16px; word-break: break-word; text-align: center;\"><span style=\"font-size: 14px; line-height: 16px;\" data-mce-style=\"font-size: 14px; line-height: 16px;\">THE OFFER WILL EXPIRE IN THE NEXT</span></p></div>","style":{"color":"#555555","font-family":"inherit","line-height":"120%"}}},"locked":false,"type":"mailup-bee-newsletter-modules-text","uuid":"4a46e774-4e31-4798-823f-1c8ed1ffb9ff"},{"align":"left","descriptor":{"button":{"href":"http://www.example.com","label":"<div class=\"txtTinyMce-wrapper\" style=\"font-size: 12px; line-height: 24px;\" data-mce-style=\"font-size: 12px; line-height: 24px;\"><p style=\"font-size: 16px; line-height: 32px; word-break: break-word;\" data-mce-style=\"font-size: 16px; line-height: 32px; word-break: break-word;\"><span style=\"font-size: 14px; line-height: 28px;\" data-mce-style=\"font-size: 14px; line-height: 28px;\">DONATE</span></p></div>","style":{"background-color":"#e75f1b","border-bottom":"0px solid transparent","border-left":"0px solid transparent","border-radius":"3px","border-right":"0px solid transparent","border-top":"0px solid transparent","color":"#ffffff","font-family":"inherit","line-height":"200%","max-width":"100%","padding-bottom":"5px","padding-left":"50px","padding-right":"50px","padding-top":"5px","width":"auto","letter-spacing":"1px"}},"computedStyle":{"height":42,"hideContentOnMobile":false,"width":158},"style":{"padding-bottom":"10px","padding-left":"20px","padding-right":"20px","padding-top":"10px","text-align":"center"}},"locked":false,"type":"mailup-bee-newsletter-modules-button","uuid":"39b22c11-4949-40c0-85dd-007983024325"}],"style":{"background-color":"transparent","border-bottom":"0px solid transparent","border-left":"0px solid transparent","border-right":"0px solid transparent","border-top":"0px solid transparent","padding-bottom":"20px","padding-left":"0px","padding-right":"0px","padding-top":"55px"},"uuid":"993534cb-6aff-4b01-a3a3-b1c0fd568cec"}],"container":{"style":{"background-color":"transparent","background-image":"none","background-position":"top left","background-repeat":"no-repeat"}},"content":{"computedStyle":{"rowColStackOnMobile":true},"style":{"background-color":"#4a1d32","background-image":"url('https://d153pg9b3vec03.cloudfront.net/public/users/Integrators/BeeAppQAPopup/test1-clientside/editor_images/444786d2-93c6-403d-9e9c-0e305fee47c3.png')","background-position":"center top","background-repeat":"no-repeat","color":"#000000","width":"700px"}},"locked":false,"metadata":{"name":"Countdown Timer"},"name":"Countdown Timer","type":"one-column-empty","uuid":"1ca7194d-ab80-4cf6-9378-d68e54c53b24"}],"template":{"name":"template-base","type":"basic","version":"2.0.0"},"title":"BF-ecommerce-template"},"comments":{}}
+﻿{
+    "page": {
+        "body": {
+            "container": {
+                "style": {
+                    "background-color": "#e2dede"
+                }
+            },
+            "content": {
+                "computedStyle": {
+                    "linkColor": "#FF819C",
+                    "messageBackgroundColor": "transparent",
+                    "messageWidth": "500px",
+                    "messageWidthMobile": "250px"
+                },
+                "style": {
+                    "color": "#000000",
+                    "font-family": "Tahoma, Verdana, Segoe, sans-serif"
+                }
+            },
+            "type": "mailup-bee-page-properties",
+            "webFonts": [
+                {
+                    "fontFamily": "'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif",
+                    "name": "Montserrat",
+                    "url": "https://fonts.googleapis.com/css?family=Montserrat"
+                },
+                {
+                    "family": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+                    "fontFamily": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+                    "fontName": "Helvetica",
+                    "name": "Helvetica"
+                },
+                {
+                    "family": "'Lato', Tahoma, Verdana, Segoe, sans-serif",
+                    "fontFamily": "'Lato', Tahoma, Verdana, Segoe, sans-serif",
+                    "fontName": "Lato",
+                    "name": "Lato",
+                    "url": "https://fonts.googleapis.com/css?family=Lato"
+                },
+                {
+                    "family": "'Roboto', Tahoma, Verdana, Segoe, sans-serif",
+                    "fontFamily": "'Roboto', Tahoma, Verdana, Segoe, sans-serif",
+                    "fontName": "Roboto",
+                    "name": "Roboto",
+                    "url": "https://fonts.googleapis.com/css?family=Roboto"
+                },
+                {
+                    "family": "'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                    "fontFamily": "'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                    "fontName": "Open Sans",
+                    "name": "Open Sans",
+                    "url": "https://fonts.googleapis.com/css?family=Open+Sans"
+                },
+                {
+                    "family": "Verdana, Geneva, sans-serif",
+                    "fontFamily": "Verdana, Geneva, sans-serif",
+                    "fontName": "Verdana",
+                    "name": "Verdana"
+                },
+                {
+                    "family": "Tahoma, Verdana, Segoe, sans-serif",
+                    "fontFamily": "Tahoma, Verdana, Segoe, sans-serif",
+                    "fontName": "Tahoma",
+                    "name": "Tahoma"
+                },
+                {
+                    "family": "ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro,Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif",
+                    "fontFamily": "ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro,Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif",
+                    "fontName": "ヒラギノ角ゴ Pro W3",
+                    "name": "ヒラギノ角ゴ Pro W3"
+                },
+                {
+                    "fontFamily": "'Akaya Telivigala', arial",
+                    "name": "Akaya Telivigala",
+                    "url": "https://fonts.googleapis.com/css?family=Akaya+Telivigala"
+                },
+                {
+                    "family": "'Droid Serif', Georgia, Times, 'Times New Roman', serif",
+                    "fontFamily": "'Droid Serif', Georgia, Times, 'Times New Roman', serif",
+                    "fontName": "Droid Serif",
+                    "name": "Droid Serif",
+                    "url": "https://fonts.googleapis.com/css?family=Droid+Serif"
+                }
+            ]
+        },
+        "description": "BF-ecommerce-template",
+        "rows": [
+            {
+                "columns": [
+                    {
+                        "grid-columns": 12,
+                        "modules": [
+                            {
+                                "align": "left",
+                                "descriptor": {
+                                    "computedStyle": {
+                                        "height": 42,
+                                        "hideContentOnDesktop": false,
+                                        "hideContentOnMobile": true,
+                                        "width": 52
+                                    },
+                                    "heading": {
+                                        "style": {
+                                            "color": "#ffffff",
+                                            "direction": "ltr",
+                                            "font-family": "inherit",
+                                            "font-size": "40px",
+                                            "font-weight": "normal",
+                                            "letter-spacing": "0px",
+                                            "line-height": "120%",
+                                            "link-color": "#E01253",
+                                            "text-align": "center"
+                                        },
+                                        "text": "<strong>HELP US TO</strong><br /><strong>GIVE HEALTH</strong>",
+                                        "title": "h1"
+                                    },
+                                    "style": {
+                                        "padding-bottom": "0px",
+                                        "padding-left": "0px",
+                                        "padding-right": "0px",
+                                        "padding-top": "60px",
+                                        "text-align": "center",
+                                        "width": "100%"
+                                    }
+                                },
+                                "locked": false,
+                                "type": "mailup-bee-newsletter-modules-heading",
+                                "uuid": "110f6686-a1fe-49f1-b8e6-e60b55a825e2"
+                            },
+                            {
+                                "align": "left",
+                                "descriptor": {
+                                    "computedStyle": {
+                                        "height": 42,
+                                        "hideContentOnDesktop": true,
+                                        "hideContentOnMobile": false,
+                                        "width": 52
+                                    },
+                                    "heading": {
+                                        "style": {
+                                            "color": "#555555",
+                                            "direction": "ltr",
+                                            "font-family": "inherit",
+                                            "font-size": "28px",
+                                            "font-weight": "normal",
+                                            "letter-spacing": "0px",
+                                            "line-height": "120%",
+                                            "link-color": "#E01253",
+                                            "text-align": "center"
+                                        },
+                                        "text": "<strong>Access 1 month trial</strong>",
+                                        "title": "h1"
+                                    },
+                                    "style": {
+                                        "padding-bottom": "0px",
+                                        "padding-left": "0px",
+                                        "padding-right": "0px",
+                                        "padding-top": "0px",
+                                        "text-align": "center",
+                                        "width": "100%"
+                                    }
+                                },
+                                "locked": false,
+                                "type": "mailup-bee-newsletter-modules-heading",
+                                "uuid": "85879775-9095-47e4-a5d4-0f5b9adc5715"
+                            },
+                            {
+                                "align": "left",
+                                "descriptor": {
+                                    "computedStyle": {
+                                        "hideContentOnDesktop": false,
+                                        "hideContentOnMobile": true
+                                    },
+                                    "style": {
+                                        "padding-bottom": "10px",
+                                        "padding-left": "10px",
+                                        "padding-right": "10px",
+                                        "padding-top": "10px"
+                                    },
+                                    "text": {
+                                        "computedStyle": {
+                                            "linkColor": "#8a3b8f"
+                                        },
+                                        "html": "<div class=\"txtTinyMce-wrapper\" style=\"line-height: 14px; font-size: 12px;\" data-mce-style=\"line-height: 14px; font-size: 12px;\"><p style=\"font-size: 14px; line-height: 16px; word-break: break-word; text-align: center;\" data-mce-style=\"font-size: 14px; line-height: 16px; word-break: break-word; text-align: center;\">We want to make the dream of a new hospital a reality.</p></div>",
+                                        "style": {
+                                            "color": "#f7b52e",
+                                            "font-family": "inherit",
+                                            "line-height": "120%"
+                                        }
+                                    }
+                                },
+                                "locked": false,
+                                "type": "mailup-bee-newsletter-modules-text",
+                                "uuid": "31103c43-1ead-46e7-b51c-5f93ac200df5"
+                            },
+                            {
+                                "align": "left",
+                                "descriptor": {
+                                    "computedStyle": {
+                                        "hideContentOnDesktop": true,
+                                        "hideContentOnMobile": false
+                                    },
+                                    "style": {
+                                        "padding-bottom": "10px",
+                                        "padding-left": "10px",
+                                        "padding-right": "10px",
+                                        "padding-top": "10px"
+                                    },
+                                    "text": {
+                                        "computedStyle": {
+                                            "linkColor": "#8a3b8f"
+                                        },
+                                        "html": "<div class=\"txtTinyMce-wrapper\" style=\"line-height: 14px; font-size: 12px;\" data-mce-style=\"line-height: 14px; font-size: 12px;\"><p style=\"font-size: 14px; line-height: 16px; word-break: break-word; text-align: center;\" data-mce-style=\"font-size: 14px; line-height: 16px; word-break: break-word; text-align: center;\"><span style=\"font-size: 14px; line-height: 16px;\" data-mce-style=\"font-size: 14px; line-height: 16px;\">THE OFFER WILL EXPIRE IN THE NEXT</span></p></div>",
+                                        "style": {
+                                            "color": "#555555",
+                                            "font-family": "inherit",
+                                            "line-height": "120%"
+                                        }
+                                    }
+                                },
+                                "locked": false,
+                                "type": "mailup-bee-newsletter-modules-text",
+                                "uuid": "4a46e774-4e31-4798-823f-1c8ed1ffb9ff"
+                            },
+                            {
+                                "align": "left",
+                                "descriptor": {
+                                    "button": {
+                                        "href": "http://www.example.com",
+                                        "label": "<div class=\"txtTinyMce-wrapper\" style=\"font-size: 12px; line-height: 24px;\" data-mce-style=\"font-size: 12px; line-height: 24px;\"><p style=\"font-size: 16px; line-height: 32px; word-break: break-word;\" data-mce-style=\"font-size: 16px; line-height: 32px; word-break: break-word;\"><span style=\"font-size: 14px; line-height: 28px;\" data-mce-style=\"font-size: 14px; line-height: 28px;\">DONATE</span></p></div>",
+                                        "style": {
+                                            "background-color": "#e75f1b",
+                                            "border-bottom": "0px solid transparent",
+                                            "border-left": "0px solid transparent",
+                                            "border-radius": "3px",
+                                            "border-right": "0px solid transparent",
+                                            "border-top": "0px solid transparent",
+                                            "color": "#ffffff",
+                                            "font-family": "inherit",
+                                            "line-height": "200%",
+                                            "max-width": "100%",
+                                            "padding-bottom": "5px",
+                                            "padding-left": "50px",
+                                            "padding-right": "50px",
+                                            "padding-top": "5px",
+                                            "width": "auto",
+                                            "letter-spacing": "1px"
+                                        }
+                                    },
+                                    "computedStyle": {
+                                        "height": 42,
+                                        "hideContentOnMobile": false,
+                                        "width": 158
+                                    },
+                                    "style": {
+                                        "padding-bottom": "10px",
+                                        "padding-left": "20px",
+                                        "padding-right": "20px",
+                                        "padding-top": "10px",
+                                        "text-align": "center"
+                                    }
+                                },
+                                "locked": false,
+                                "type": "mailup-bee-newsletter-modules-button",
+                                "uuid": "39b22c11-4949-40c0-85dd-007983024325"
+                            }
+                        ],
+                        "style": {
+                            "background-color": "transparent",
+                            "border-bottom": "0px solid transparent",
+                            "border-left": "0px solid transparent",
+                            "border-right": "0px solid transparent",
+                            "border-top": "0px solid transparent",
+                            "padding-bottom": "20px",
+                            "padding-left": "0px",
+                            "padding-right": "0px",
+                            "padding-top": "55px"
+                        },
+                        "uuid": "993534cb-6aff-4b01-a3a3-b1c0fd568cec"
+                    }
+                ],
+                "container": {
+                    "style": {
+                        "background-color": "transparent",
+                        "background-image": "none",
+                        "background-position": "top left",
+                        "background-repeat": "no-repeat"
+                    }
+                },
+                "content": {
+                    "computedStyle": {
+                        "rowColStackOnMobile": true
+                    },
+                    "style": {
+                        "background-color": "#4a1d32",
+                        "background-image": "url('repository_path/img/tree.png')",
+                        "background-position": "center top",
+                        "background-repeat": "no-repeat",
+                        "color": "#000000",
+                        "width": "700px"
+                    }
+                },
+                "locked": false,
+                "metadata": {
+                    "name": "Countdown Timer"
+                },
+                "name": "Countdown Timer",
+                "type": "one-column-empty",
+                "uuid": "1ca7194d-ab80-4cf6-9378-d68e54c53b24"
+            }
+        ],
+        "template": {
+            "name": "template-base",
+            "type": "basic",
+            "version": "2.0.0"
+        },
+        "title": "BF-ecommerce-template"
+    },
+    "comments": {}
+}
