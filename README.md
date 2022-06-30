@@ -20,7 +20,15 @@ Use these templates to set-up your BEE Plugin integration.
 
 2. Copy and paste the `*.config.js` file into your [bee configuration](https://docs.beefree.io/testing-and-integrating-popup-builder/#integrating-the-popup-builder).
 
-4. Load the templates on BEE
+3. Load the templates on BEE
+
+## v3 Page Templates
+
+1. Publish the `*.json` template file on a public URL.
+*Note: All image assets are automatically included via a Content Delivery Network, but you can save them and replace the URLs.*
+
+2. Load the templates on BEE
+
 
 
 
