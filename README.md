@@ -1,7 +1,7 @@
 
-# BEE Free templates
+# Beefree SDK templates
 
-Use these templates to set-up your BEE Plugin integration.
+Use these templates to set up your Beefree SDK integration.
 
 
 
@@ -38,4 +38,4 @@ Use these templates to set-up your BEE Plugin integration.
 
 ###### https://www.beefree.io
 
-###### [Getting started with BEE Plugin](http://help.beefree.io/hc/en-us/sections/201052881-Getting-started-with-BEE-Plugin)
+###### [Getting started with Beefree SDK](http://help.beefree.io/hc/en-us/sections/201052881-Getting-started-with-BEE-Plugin)
