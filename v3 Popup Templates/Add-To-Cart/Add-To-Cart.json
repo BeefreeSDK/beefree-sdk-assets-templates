@@ -1,0 +1,259 @@
+{
+  "page": {
+    "body": {
+      "container": {
+        "style": {
+          "background-color": "#FFFFFF"
+        }
+      },
+      "content": {
+        "computedStyle": {
+          "linkColor": "#0068A5",
+          "messageBackgroundColor": "transparent",
+          "messageWidth": "500px",
+          "messageWidthMobile": "250px"
+        },
+        "style": {
+          "color": "#000000",
+          "font-family": "'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif"
+        }
+      },
+      "type": "mailup-bee-page-properties",
+      "webFonts": [
+        {
+          "fontFamily": "'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif",
+          "name": "Montserrat",
+          "url": "https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap"
+        }
+      ]
+    },
+    "description": "",
+    "rows": [
+      {
+        "columns": [
+          {
+            "grid-columns": 12,
+            "modules": [
+              {
+                "type": "mailup-bee-newsletter-modules-heading",
+                "descriptor": {
+                  "heading": {
+                    "title": "h1",
+                    "text": "Complete <br>the look",
+                    "style": {
+                      "color": "#004a6b",
+                      "font-size": "55px",
+                      "font-family": "'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif",
+                      "link-color": "#004a6b",
+                      "line-height": "120%",
+                      "text-align": "center",
+                      "direction": "ltr",
+                      "font-weight": "700",
+                      "letter-spacing": "0px"
+                    }
+                  },
+                  "style": {
+                    "width": "100%",
+                    "text-align": "center",
+                    "padding-top": "0px",
+                    "padding-right": "0px",
+                    "padding-bottom": "20px",
+                    "padding-left": "0px"
+                  },
+                  "mobileStyle": {
+                    "font-size": "32px",
+                    "padding-top": "0px",
+                    "padding-right": "0px",
+                    "padding-bottom": "10px",
+                    "padding-left": "0px"
+                  }
+                },
+                "locked": false,
+                "uuid": "fc0493e5-8178-4179-9d1b-fef1e81e9460"
+              },
+              {
+                "type": "mailup-bee-newsletter-modules-heading",
+                "descriptor": {
+                  "heading": {
+                    "title": "h2",
+                    "text": "Add these shoes to get <br><strong>%10 off </strong>your order",
+                    "style": {
+                      "color": "#305770",
+                      "font-size": "30px",
+                      "font-family": "'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif",
+                      "link-color": "#305770",
+                      "line-height": "120%",
+                      "text-align": "center",
+                      "direction": "ltr",
+                      "font-weight": "400",
+                      "letter-spacing": "0px"
+                    }
+                  },
+                  "style": {
+                    "width": "100%",
+                    "text-align": "center",
+                    "padding-top": "0px",
+                    "padding-right": "0px",
+                    "padding-bottom": "20px",
+                    "padding-left": "0px"
+                  },
+                  "mobileStyle": {
+                    "font-size": "26px",
+                    "padding-top": "0px",
+                    "padding-right": "0px",
+                    "padding-bottom": "15px",
+                    "padding-left": "0px"
+                  }
+                },
+                "locked": false,
+                "uuid": "701d3de8-6aa9-4fa7-a5dd-ac0d6f6cd35b"
+              },
+              {
+                "type": "mailup-bee-newsletter-modules-image",
+                "descriptor": {
+                  "image": {
+                    "alt": "",
+                    "src": "https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeDemo003/b5736b5d-2500-4d4e-b628-eecffbd78101/popup/sneakers.png",
+                    "href": "",
+                    "target": "_blank",
+                    "width": "780px",
+                    "height": "567px"
+                  },
+                  "style": {
+                    "width": "100%",
+                    "border-radius": "0px",
+                    "padding-top": "0px",
+                    "padding-right": "0px",
+                    "padding-bottom": "0px",
+                    "padding-left": "0px"
+                  },
+                  "computedStyle": {
+                    "class": "center autowidth",
+                    "width": "440px",
+                    "hideContentOnMobile": false
+                  },
+                  "mobileStyle": {}
+                },
+                "locked": false,
+                "uuid": "ace224a5-3976-4280-8cdf-5ad961ab22c8"
+              },
+              {
+                "type": "mailup-bee-newsletter-modules-button",
+                "descriptor": {
+                  "button": {
+                    "label": "<div class=\"txtTinyMce-wrapper\" style=\"font-family: inherit;\" data-mce-style=\"font-family: inherit;\"><p style=\"word-break: break-word;\" data-mce-style=\"word-break: break-word;\">ADD TO CART</p></div>",
+                    "href": "",
+                    "target": "_blank",
+                    "style": {
+                      "font-family": "'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif",
+                      "font-size": "25px",
+                      "font-weight": "700",
+                      "background-color": "#004a6b",
+                      "border-radius": "4px",
+                      "border-top": "0px solid transparent",
+                      "border-right": "0px solid transparent",
+                      "border-bottom": "0px solid transparent",
+                      "border-left": "0px solid transparent",
+                      "color": "#ffffff",
+                      "line-height": "200%",
+                      "letter-spacing": "0px",
+                      "padding-top": "5px",
+                      "padding-right": "10px",
+                      "padding-bottom": "5px",
+                      "padding-left": "10px",
+                      "width": "100%",
+                      "max-width": "100%",
+                      "direction": "ltr"
+                    }
+                  },
+                  "style": {
+                    "text-align": "center",
+                    "padding-top": "20px",
+                    "padding-right": "0px",
+                    "padding-bottom": "0px",
+                    "padding-left": "0px"
+                  },
+                  "mobileStyle": {
+                    "font-size": "20px",
+                    "width": "100%"
+                  },
+                  "computedStyle": {
+                    "width": 440,
+                    "height": 60,
+                    "hideContentOnMobile": false
+                  },
+                  "hoverStyle": {
+                    "background-color": "#013950",
+                    "color": "#fff",
+                    "border-top": "0px solid transparent",
+                    "border-right": "0px solid transparent",
+                    "border-bottom": "0px solid transparent",
+                    "border-left": "0px solid transparent"
+                  }
+                },
+                "locked": false,
+                "uuid": "b5ea76b5-3ddf-4c5b-93bb-8d261c3c7bc9"
+              }
+            ],
+            "style": {
+              "background-color": "#e6f0f4",
+              "border-bottom": "0px solid transparent",
+              "border-left": "0px solid transparent",
+              "border-right": "0px solid transparent",
+              "border-top": "0px solid transparent",
+              "padding-bottom": "30px",
+              "padding-left": "30px",
+              "padding-right": "30px",
+              "padding-top": "20px"
+            },
+            "uuid": "fc5b4a1e-56b5-4798-a099-2b353a50caeb",
+            "mobileStyle": {
+              "padding-bottom": "20px",
+              "padding-left": "20px",
+              "padding-right": "20px",
+              "padding-top": "20px"
+            }
+          }
+        ],
+        "container": {
+          "style": {
+            "background-color": "transparent",
+            "background-image": "none",
+            "background-position": "top left",
+            "background-repeat": "no-repeat"
+          }
+        },
+        "content": {
+          "computedStyle": {
+            "hideContentOnDesktop": false,
+            "hideContentOnMobile": false,
+            "rowColStackOnMobile": true,
+            "rowReverseColStackOnMobile": false,
+            "verticalAlign": "top",
+            "columnsBorderRadius": "4px"
+          },
+          "style": {
+            "background-color": "transparent",
+            "background-image": "none",
+            "background-position": "top left",
+            "background-repeat": "no-repeat",
+            "color": "#000000",
+            "width": "495px"
+          }
+        },
+        "empty": false,
+        "locked": false,
+        "synced": false,
+        "type": "one-column-empty",
+        "uuid": "64469c38-cc95-4904-9b89-05f83f361fba"
+      }
+    ],
+    "template": {
+      "name": "template-base",
+      "type": "basic",
+      "version": "2.0.0"
+    },
+    "title": ""
+  },
+  "comments": {}
+}

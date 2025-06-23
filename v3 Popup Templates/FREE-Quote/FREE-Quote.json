@@ -1,0 +1,513 @@
+{
+  "page": {
+    "body": {
+      "container": {
+        "style": {
+          "background-color": "#FFFFFF"
+        }
+      },
+      "content": {
+        "computedStyle": {
+          "linkColor": "#0068A5",
+          "messageBackgroundColor": "transparent",
+          "messageWidth": "500px",
+          "messageWidthMobile": "250px"
+        },
+        "style": {
+          "color": "#000000",
+          "font-family": "Arial, Helvetica Neue, Helvetica, sans-serif"
+        }
+      },
+      "type": "mailup-bee-page-properties",
+      "webFonts": [
+        {
+          "fontFamily": "'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+          "name": "Open Sans",
+          "url": "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+        }
+      ]
+    },
+    "description": "",
+    "rows": [
+      {
+        "columns": [
+          {
+            "grid-columns": 4,
+            "mobileStyle": {
+              "padding-bottom": "20px",
+              "padding-left": "10px",
+              "padding-right": "10px",
+              "padding-top": "5px"
+            },
+            "modules": [
+              {
+                "descriptor": {
+                  "computedStyle": {
+                    "class": "center fixedwidth",
+                    "hideContentOnMobile": false,
+                    "width": "100px"
+                  },
+                  "image": {
+                    "alt": "Insurance illustration",
+                    "height": "516px",
+                    "href": "",
+                    "percWidth": 60,
+                    "prefix": "",
+                    "src": "https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeDemo003/b5736b5d-2500-4d4e-b628-eecffbd78101/popup/insurance-illo.png",
+                    "target": "_blank",
+                    "width": "285px"
+                  },
+                  "mobileStyle": {
+                    "class": "left fixedwidth"
+                  },
+                  "style": {
+                    "border-radius": "0px",
+                    "padding-bottom": "0px",
+                    "padding-left": "0px",
+                    "padding-right": "0px",
+                    "padding-top": "0px",
+                    "width": "100%"
+                  }
+                },
+                "locked": false,
+                "type": "mailup-bee-newsletter-modules-image",
+                "uuid": "d2e34720-dc5f-471e-9b87-8cf67270d25a"
+              }
+            ],
+            "style": {
+              "background-color": "transparent",
+              "border-bottom": "0px solid transparent",
+              "border-left": "0px solid transparent",
+              "border-right": "0px solid transparent",
+              "border-top": "0px solid transparent",
+              "padding-bottom": "20px",
+              "padding-left": "0px",
+              "padding-right": "0px",
+              "padding-top": "5px"
+            },
+            "uuid": "fc5b4a1e-56b5-4798-a099-2b353a50caeb"
+          },
+          {
+            "grid-columns": 8,
+            "mobileStyle": {
+              "padding-bottom": "20px",
+              "padding-left": "10px",
+              "padding-right": "10px",
+              "padding-top": "5px"
+            },
+            "modules": [
+              {
+                "descriptor": {
+                  "computedStyle": {
+                    "class": "left fixedwidth",
+                    "hideContentOnMobile": false,
+                    "width": "125.333px"
+                  },
+                  "image": {
+                    "alt": "Insurance logo",
+                    "height": "53px",
+                    "href": "",
+                    "percWidth": 40,
+                    "prefix": "",
+                    "src": "https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeDemo003/b5736b5d-2500-4d4e-b628-eecffbd78101/popup/insurance_logo.png",
+                    "target": "_blank",
+                    "width": "388px"
+                  },
+                  "style": {
+                    "border-radius": "0px",
+                    "padding-bottom": "0px",
+                    "padding-left": "0px",
+                    "padding-right": "0px",
+                    "padding-top": "0px",
+                    "width": "100%"
+                  }
+                },
+                "locked": false,
+                "type": "mailup-bee-newsletter-modules-image",
+                "uuid": "87bb17c1-ff2c-4bfa-82aa-67de3743d6b5"
+              },
+              {
+                "descriptor": {
+                  "computedStyle": {
+                    "hideContentOnDesktop": false,
+                    "hideContentOnMobile": false
+                  },
+                  "heading": {
+                    "style": {
+                      "color": "#219653",
+                      "direction": "ltr",
+                      "font-family": "'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                      "font-size": "34px",
+                      "font-weight": "700",
+                      "letter-spacing": "0px",
+                      "line-height": "120%",
+                      "link-color": "#219653",
+                      "text-align": "left"
+                    },
+                    "text": "<span class=\"tinyMce-placeholder\">Get a Free Insurance Quote</span>",
+                    "title": "h1"
+                  },
+                  "mobileStyle": {
+                    "font-size": "26px"
+                  },
+                  "style": {
+                    "padding-bottom": "0px",
+                    "padding-left": "0px",
+                    "padding-right": "0px",
+                    "padding-top": "10px",
+                    "text-align": "center",
+                    "width": "100%"
+                  }
+                },
+                "locked": false,
+                "type": "mailup-bee-newsletter-modules-heading",
+                "uuid": "bd1b2bc0-016b-4a15-b713-eec8495561f2"
+              },
+              {
+                "descriptor": {
+                  "computedStyle": {
+                    "hideContentOnAmp": false,
+                    "hideContentOnDesktop": false,
+                    "hideContentOnHtml": false,
+                    "hideContentOnMobile": false
+                  },
+                  "paragraph": {
+                    "computedStyle": {
+                      "linkColor": "#2c3e50",
+                      "paragraphSpacing": "16px"
+                    },
+                    "html": "<p>Compare rates and find the best coverage for your needs.</p>",
+                    "style": {
+                      "color": "#2c3e50",
+                      "direction": "ltr",
+                      "font-family": "'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                      "font-size": "16px",
+                      "font-weight": "400",
+                      "letter-spacing": "0px",
+                      "line-height": "120%",
+                      "text-align": "left"
+                    }
+                  },
+                  "style": {
+                    "padding-bottom": "0px",
+                    "padding-left": "0px",
+                    "padding-right": "10px",
+                    "padding-top": "10px"
+                  }
+                },
+                "locked": false,
+                "type": "mailup-bee-newsletter-modules-paragraph",
+                "uuid": "91600626-4b47-4c4a-8a2a-4d79c484707c"
+              }
+            ],
+            "style": {
+              "background-color": "transparent",
+              "border-bottom": "0px solid transparent",
+              "border-left": "0px solid transparent",
+              "border-right": "0px solid transparent",
+              "border-top": "0px solid transparent",
+              "padding-bottom": "20px",
+              "padding-left": "0px",
+              "padding-right": "20px",
+              "padding-top": "5px"
+            },
+            "uuid": "94b715cc-54d6-428f-b1bb-9f118c6c8f57"
+          }
+        ],
+        "container": {
+          "style": {
+            "background-color": "transparent",
+            "background-image": "none",
+            "background-position": "top left",
+            "background-repeat": "no-repeat"
+          }
+        },
+        "content": {
+          "computedStyle": {
+            "hideContentOnDesktop": false,
+            "hideContentOnMobile": false,
+            "rowColStackOnMobile": true,
+            "rowReverseColStackOnMobile": false,
+            "verticalAlign": "middle"
+          },
+          "style": {
+            "background-color": "transparent",
+            "background-image": "none",
+            "background-position": "top left",
+            "background-repeat": "no-repeat",
+            "color": "#000000",
+            "width": "500px"
+          }
+        },
+        "empty": false,
+        "locked": false,
+        "synced": false,
+        "type": "one-column-empty",
+        "uuid": "64469c38-cc95-4904-9b89-05f83f361fba"
+      },
+      {
+        "columns": [
+          {
+            "grid-columns": 12,
+            "modules": [
+              {
+                "descriptor": {
+                  "computedStyle": {
+                    "class": "center",
+                    "hideContentOnDesktop": false,
+                    "hideContentOnMobile": false
+                  },
+                  "form": {
+                    "structure": {
+                      "description": "",
+                      "fields": {
+                        "confirm": {
+                          "canBeModified": true,
+                          "canBeRemovedFromLayout": true,
+                          "fullWidth": false,
+                          "id": "confirm",
+                          "label": "Confirm password",
+                          "options": null,
+                          "removeFromLayout": true,
+                          "type": "password"
+                        },
+                        "email": {
+                          "canBeModified": true,
+                          "canBeRemovedFromLayout": true,
+                          "fullWidth": true,
+                          "label": "Email",
+                          "options": null,
+                          "removeFromLayout": false,
+                          "type": "email"
+                        },
+                        "firstname": {
+                          "canBeModified": true,
+                          "canBeRemovedFromLayout": true,
+                          "fullWidth": false,
+                          "label": "First name",
+                          "options": null,
+                          "removeFromLayout": false,
+                          "type": "text"
+                        },
+                        "lastname": {
+                          "canBeModified": true,
+                          "canBeRemovedFromLayout": true,
+                          "fullWidth": false,
+                          "label": "Last name",
+                          "options": null,
+                          "removeFromLayout": false,
+                          "type": "text"
+                        },
+                        "password": {
+                          "canBeModified": true,
+                          "canBeRemovedFromLayout": true,
+                          "fullWidth": false,
+                          "id": "password",
+                          "label": "Password",
+                          "options": null,
+                          "removeFromLayout": true,
+                          "type": "password"
+                        },
+                        "privacy": {
+                          "attributes": {
+                            "required": true
+                          },
+                          "canBeModified": true,
+                          "canBeRemovedFromLayout": true,
+                          "fullWidth": true,
+                          "label": "Type of Insurance",
+                          "options": [
+                            {
+                              "label": "Auto",
+                              "type": "option",
+                              "value": "Auto"
+                            },
+                            {
+                              "label": "Home",
+                              "type": "option",
+                              "value": "Home"
+                            },
+                            {
+                              "label": "Life",
+                              "type": "option",
+                              "value": "Life"
+                            },
+                            {
+                              "label": "Health",
+                              "type": "option",
+                              "value": "Health"
+                            }
+                          ],
+                          "removeFromLayout": false,
+                          "type": "radio"
+                        },
+                        "submit": {
+                          "attributes": {
+                            "value": "Get My Quote"
+                          },
+                          "canBeModified": true,
+                          "canBeRemovedFromLayout": true,
+                          "fullWidth": true,
+                          "options": null,
+                          "removeFromLayout": false,
+                          "type": "submit"
+                        }
+                      },
+                      "layout": [
+                        [
+                          "firstname",
+                          "lastname"
+                        ],
+                        [
+                          "email"
+                        ],
+                        [
+                          "privacy"
+                        ],
+                        [
+                          "submit"
+                        ],
+                        [
+                          "password",
+                          "confirm"
+                        ]
+                      ],
+                      "layoutPreset": "grid",
+                      "title": "Signup form #1"
+                    },
+                    "style": {
+                      "buttons": {
+                        "backgroundColor": "#27ae60",
+                        "border-bottom": "0px solid transparent",
+                        "border-left": "0px solid transparent",
+                        "border-radius": "4px",
+                        "border-right": "0px solid transparent",
+                        "border-top": "0px solid transparent",
+                        "color": "#ffffff",
+                        "font-style": "",
+                        "font-weight": "",
+                        "letter-spacing": "0",
+                        "line-height": "200%",
+                        "max-width": "100%",
+                        "outer": {
+                          "padding-bottom": "0px",
+                          "padding-left": "0px",
+                          "padding-right": "0px",
+                          "padding-top": "10px"
+                        },
+                        "padding-bottom": "5px",
+                        "padding-left": "20px",
+                        "padding-right": "20px",
+                        "padding-top": "5px",
+                        "text-align": "center",
+                        "width": "100%"
+                      },
+                      "fields": {
+                        "backgroundColor": "#ffffff",
+                        "border-bottom": "1px solid #d1d5d8",
+                        "border-left": "1px solid #d1d5d8",
+                        "border-radius": "8px",
+                        "border-right": "1px solid #d1d5d8",
+                        "border-top": "1px solid #d1d5d8",
+                        "color": "#2c3e50",
+                        "outlineColor": "#27ae60",
+                        "padding-bottom": "5px",
+                        "padding-left": "5px",
+                        "padding-right": "5px",
+                        "padding-top": "5px"
+                      },
+                      "labels": {
+                        "color": "#2c3e50",
+                        "font-style": "",
+                        "font-weight": "",
+                        "label-position": "top",
+                        "letter-spacing": "0",
+                        "line-height": "200%",
+                        "min-width": "0",
+                        "text-align": "left"
+                      }
+                    }
+                  },
+                  "style": {
+                    "background-color": "transparent",
+                    "font-family": "'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+                    "font-size": "14px",
+                    "font-weight": "700",
+                    "padding-bottom": "20px",
+                    "padding-left": "20px",
+                    "padding-right": "20px",
+                    "padding-top": "10px",
+                    "text-align": "left",
+                    "width": "100%"
+                  }
+                },
+                "locked": false,
+                "type": "mailup-bee-newsletter-modules-form",
+                "uuid": "0e061319-553a-4cd9-8fef-a889f2be4eca"
+              }
+            ],
+            "style": {
+              "background-color": "#e8f6f2",
+              "border-bottom": "0px solid transparent",
+              "border-left": "0px solid transparent",
+              "border-right": "0px solid transparent",
+              "border-top": "0px solid transparent",
+              "padding-bottom": "5px",
+              "padding-left": "0px",
+              "padding-right": "0px",
+              "padding-top": "5px"
+            },
+            "uuid": "6e488d23-5703-4c08-9ff8-c973944651db"
+          }
+        ],
+        "container": {
+          "style": {
+            "background-color": "transparent",
+            "background-image": "none",
+            "background-position": "top left",
+            "background-repeat": "no-repeat"
+          }
+        },
+        "content": {
+          "computedStyle": {
+            "columnsBorderRadius": "8px",
+            "hideContentOnDesktop": false,
+            "hideContentOnMobile": false,
+            "rowColStackOnMobile": true,
+            "rowReverseColStackOnMobile": false,
+            "verticalAlign": "top"
+          },
+          "style": {
+            "background-color": "transparent",
+            "background-image": "none",
+            "background-position": "top left",
+            "background-repeat": "no-repeat",
+            "border-bottom": "0px solid transparent",
+            "border-left": "0px solid transparent",
+            "border-radius": "0px",
+            "border-right": "0px solid transparent",
+            "border-top": "0px solid transparent",
+            "color": "#000000",
+            "padding-bottom": "0px",
+            "padding-left": "0px",
+            "padding-right": "0px",
+            "padding-top": "0px",
+            "width": "500px"
+          }
+        },
+        "empty": false,
+        "locked": false,
+        "synced": false,
+        "type": "one-column-empty",
+        "uuid": "e8ccc06c-7c50-45e1-b648-f16a5045f87f"
+      }
+    ],
+    "template": {
+      "name": "template-base",
+      "type": "basic",
+      "version": "2.0.0"
+    },
+    "title": ""
+  },
+  "comments": {}
+}

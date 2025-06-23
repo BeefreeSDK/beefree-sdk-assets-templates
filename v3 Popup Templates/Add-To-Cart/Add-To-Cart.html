@@ -1,0 +1,202 @@
+<div class="bee-popup-container">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&amp;display=swap" rel="stylesheet" type="text/css" />
+	<style>
+		.bee-popup-container div,
+		.bee-popup-container h1,
+		.bee-popup-container h2 {
+			margin: 0;
+			padding: 0
+		}
+
+		.bee-popup-container img {
+			border: 0
+		}
+
+		.bee-popup-container h1,
+		.bee-popup-container h2 {
+			font-size: 100%;
+			font-weight: 400
+		}
+
+		.bee-popup-container {
+			color: #000000;
+			font-family: Montserrat, "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif
+		}
+
+		.bee-popup-container * {
+			box-sizing: border-box
+		}
+
+		h1,
+		h2 {
+			margin: 0
+		}
+
+		.bee-popup-container .bee-popup-row {
+			position: relative
+		}
+
+		.bee-popup-container .bee-popup-row-content {
+			max-width: 500px;
+			position: relative;
+			margin: 0 auto;
+			display: flex
+		}
+
+		.bee-popup-container .bee-popup-row-content .bee-popup-col-w12 {
+			flex: 12
+		}
+
+		.bee-popup-button-content {
+			text-align: center
+		}
+
+		.bee-popup-image {
+			overflow: auto
+		}
+
+		.bee-popup-image .bee-popup-center {
+			margin: 0 auto
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-3 {
+			width: 100%
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-1 h1,
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-2 h2,
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-4 div {
+			direction: ltr;
+			font-family: Montserrat, "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif
+		}
+
+		.bee-popup-image img {
+			display: block;
+			width: 100%
+		}
+
+		.bee-popup-row-1 {
+			background-repeat: no-repeat
+		}
+
+		.bee-popup-row-1 .bee-popup-row-content {
+			background-repeat: no-repeat;
+			color: #000000
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 {
+			background-color: #e6f0f4;
+			padding: 20px 30px 30px;
+			border-radius: 4px
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-1,
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-2 {
+			padding-bottom: 20px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-4 {
+			padding-top: 20px;
+			text-align: center
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-1 h1 {
+			color: #004a6b;
+			font-size: 55px;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-2 h2 {
+			color: #305770;
+			font-size: 30px;
+			font-weight: 400;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: center
+		}
+
+		@media (max-width:520px) {
+			.bee-popup-row-content:not(.no_stack) {
+				display: block;
+				max-width: 250px
+			}
+
+			.bee-popup-row-1 .bee-popup-col-1 {
+				padding: 20px !important
+			}
+
+			.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-1 {
+				padding: 0 0 10px
+			}
+
+			.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-1 h1 {
+				font-size: 32px
+			}
+
+			.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-2 {
+				padding: 0 0 15px
+			}
+
+			.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-2 h2 {
+				font-size: 26px
+			}
+
+			.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-4 .bee-popup-button-content {
+				font-size: initial !important;
+				line-height: normal !important;
+				width: 100% !important;
+				text-align: center !important
+			}
+
+			.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-4 span {
+				text-align: center !important;
+				font-size: 20px !important;
+				line-height: auto !important
+			}
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-4 div:hover {
+			background-color: #013950 !important;
+			border-bottom: 0 solid transparent !important;
+			border-left: 0 solid transparent !important;
+			border-right: 0px solid transparent !important;
+			border-top: 0 solid transparent !important;
+			color: #fff !important
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-4 div {
+			background-color: #004a6b;
+			border-radius: 4px;
+			color: #ffffff;
+			font-size: 25px;
+			font-weight: 700;
+			letter-spacing: 0;
+			line-height: 200%;
+			padding: 5px 10px;
+			width: 100%
+		}
+	</style>
+	<div class="bee-popup-rows-container">
+		<div class="bee-popup-row bee-popup-row-1">
+			<div class="bee-popup-row-content">
+				<div class="bee-popup-col bee-popup-col-1 bee-popup-col-w12">
+					<div class="bee-popup-block bee-popup-block-1 bee-popup-heading">
+						<h1>Complete <br>the look </h1>
+					</div>
+					<div class="bee-popup-block bee-popup-block-2 bee-popup-heading">
+						<h2>Add these shoes to get <br><strong>%10 off </strong>your order </h2>
+					</div>
+					<div class="bee-popup-block bee-popup-block-3 bee-popup-image"><img class="bee-popup-center bee-popup-autowidth" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeDemo003/b5736b5d-2500-4d4e-b628-eecffbd78101/popup/sneakers.png" style="max-width:440px;" alt="" /></div>
+					<div class="bee-popup-block bee-popup-block-4 bee-popup-button">
+						<div style="font-size: 25px; display: inline-block;" class="bee-popup-button-content"><span style="word-break: break-word; font-size: 25px; line-height: 200%; letter-spacing: normal;">ADD TO CART</span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

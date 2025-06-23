@@ -1,0 +1,272 @@
+<div class="bee-popup-container">
+	<style>
+		.bee-popup-row-1,
+		.bee-popup-row-1 .bee-popup-row-content {
+			background-color: #272829;
+			background-repeat: no-repeat;
+			background-size: auto
+		}
+
+		.bee-popup-container div,
+		.bee-popup-container h1,
+		.bee-popup-container h2,
+		.bee-popup-container h3,
+		.bee-popup-container p {
+			margin: 0;
+			padding: 0
+		}
+
+		.bee-popup-container img {
+			border: 0
+		}
+
+		.bee-popup-container h1,
+		.bee-popup-container h2,
+		.bee-popup-container h3 {
+			font-size: 100%;
+			font-weight: 400
+		}
+
+		.bee-popup-container {
+			color: #000000;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+		}
+
+		.bee-popup-container * {
+			box-sizing: border-box
+		}
+
+		.bee-popup-container p,
+		h1,
+		h2,
+		h3 {
+			margin: 0
+		}
+
+		.bee-popup-container .bee-popup-row {
+			position: relative
+		}
+
+		.bee-popup-container .bee-popup-row-content {
+			max-width: 500px;
+			position: relative;
+			margin: 0 auto;
+			display: flex
+		}
+
+		.bee-popup-container .bee-popup-row-content .bee-popup-col-w12 {
+			flex: 12
+		}
+
+		.bee-popup-button-content {
+			text-align: center
+		}
+
+		.bee-popup-image {
+			overflow: auto
+		}
+
+		.bee-popup-image .bee-popup-center {
+			margin: 0 auto
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-1 {
+			width: 100%
+		}
+
+		.bee-popup-image img {
+			display: block;
+			width: 100%
+		}
+
+		.bee-popup-paragraph {
+			overflow-wrap: anywhere
+		}
+
+		.bee-popup-row-1 .bee-popup-row-content {
+			background-image: url('https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeDemo003/b5736b5d-2500-4d4e-b628-eecffbd78101/popup/blackfriday-bg.png');
+			background-position: top center;
+			color: #000000
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-2 {
+			padding-bottom: 25px;
+			width: 100%
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-3,
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-4 {
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-5 {
+			padding-top: 10px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-6 {
+			padding-bottom: 10px;
+			padding-top: 10px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-7 {
+			padding-bottom: 10px;
+			padding-left: 10px;
+			padding-right: 10px;
+			color: #f5f5f5;
+			direction: ltr;
+			font-size: 18px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-8 {
+			padding: 10px 10px 30px;
+			text-align: center
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-3 h1 {
+			color: #f5f5f5;
+			direction: ltr;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 80px;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 90%;
+			text-align: center
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-5 h2 {
+			color: #f5f5f5;
+			direction: ltr;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 24px;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-4 h1,
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-6 h3 {
+			color: #efb73e;
+			letter-spacing: normal;
+			text-align: center;
+			direction: ltr;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-4 h1 {
+			font-size: 80px;
+			font-weight: 700;
+			line-height: 80%
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-6 h3 {
+			font-size: 40px;
+			font-weight: 400;
+			line-height: 120%
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-7 p:not(:last-child) {
+			margin-bottom: 16px
+		}
+
+		@media (max-width:520px) {
+			.bee-popup-row-content:not(.no_stack) {
+				display: block;
+				max-width: 250px
+			}
+
+			.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-3 h1,
+			.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-4 h1 {
+				font-size: 50px
+			}
+
+			.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-5 h2 {
+				font-size: 22px
+			}
+
+			.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-6 h3 {
+				font-size: 28px
+			}
+
+			.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-7 {
+				font-size: 16px !important
+			}
+
+			.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-8 .bee-popup-button-content {
+				font-size: initial !important;
+				line-height: normal !important;
+				text-align: center !important
+			}
+
+			.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-8 span {
+				text-align: center !important;
+				font-size: 16px !important;
+				line-height: auto !important
+			}
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-8 div:hover {
+			background-color: transparent !important;
+			border-bottom: 1px solid #efb73e !important;
+			border-left: 1px solid #efb73e !important;
+			border-right: 1px solid #efb73e !important;
+			border-top: 1px solid #efb73e !important;
+			color: #f5f5f5 !important
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-8 div {
+			background-color: #f5f5f5;
+			border-bottom: 1px solid #f5f5f5;
+			border-left: 1px solid #f5f5f5;
+			border-radius: 50px;
+			border-right: 1px solid #f5f5f5;
+			border-top: 1px solid #f5f5f5;
+			color: #272829;
+			direction: ltr;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 18px;
+			font-weight: 700;
+			letter-spacing: 0;
+			line-height: 200%;
+			padding: 5px 40px;
+			width: auto
+		}
+	</style>
+	<div class="bee-popup-rows-container">
+		<div class="bee-popup-row bee-popup-row-1">
+			<div class="bee-popup-row-content">
+				<div class="bee-popup-col bee-popup-col-1 bee-popup-col-w12">
+					<div class="bee-popup-block bee-popup-block-1 bee-popup-image"><img class="bee-popup-center bee-popup-fixedwidth" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeDemo003/b5736b5d-2500-4d4e-b628-eecffbd78101/popup/backfriday-ribbon.png" style="max-width:500px;" alt="Black friday ribbon" /></div>
+					<div class="bee-popup-block bee-popup-block-2 bee-popup-image"><img class="bee-popup-center bee-popup-fixedwidth" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeDemo003/b5736b5d-2500-4d4e-b628-eecffbd78101/popup/yourlogo-white.png" style="max-width:125px;" alt="Your logo" /></div>
+					<div class="bee-popup-block bee-popup-block-3 bee-popup-heading">
+						<h1>BLACK </h1>
+					</div>
+					<div class="bee-popup-block bee-popup-block-4 bee-popup-heading">
+						<h1>FRIDAY </h1>
+					</div>
+					<div class="bee-popup-block bee-popup-block-5 bee-popup-heading">
+						<h2><span class="tinyMce-placeholder">SALES</span> </h2>
+					</div>
+					<div class="bee-popup-block bee-popup-block-6 bee-popup-heading">
+						<h3><span class="tinyMce-placeholder">UP TO <strong>50% OFF</strong></span> </h3>
+					</div>
+					<div class="bee-popup-block bee-popup-block-7 bee-popup-paragraph">
+						<p><em>TODAY ONLY</em></p>
+					</div>
+					<div class="bee-popup-block bee-popup-block-8 bee-popup-button">
+						<div style="font-size: 18px; display: inline-block;" class="bee-popup-button-content"><span style="word-break: break-word; font-size: 18px; line-height: 200%; letter-spacing: normal;">SHOP NOW</span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

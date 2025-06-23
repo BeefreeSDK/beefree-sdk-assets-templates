@@ -1,0 +1,302 @@
+<div class="bee-popup-container">
+	<style>
+		.bee-popup-container,
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-4 {
+			font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Geneva, Verdana, sans-serif
+		}
+
+		.bee-popup-container div,
+		.bee-popup-container h1,
+		.bee-popup-container h2,
+		.bee-popup-container p {
+			margin: 0;
+			padding: 0
+		}
+
+		.bee-popup-container img {
+			border: 0
+		}
+
+		.bee-popup-container h1,
+		.bee-popup-container h2 {
+			font-size: 100%;
+			font-weight: 400
+		}
+
+		.bee-popup-container {
+			color: #000000
+		}
+
+		.bee-popup-container * {
+			box-sizing: border-box
+		}
+
+		.bee-popup-container p,
+		h1,
+		h2 {
+			margin: 0
+		}
+
+		.bee-popup-container .bee-popup-row {
+			position: relative
+		}
+
+		.bee-popup-container .bee-popup-row-content {
+			max-width: 500px;
+			position: relative;
+			margin: 0 auto;
+			display: flex
+		}
+
+		.bee-popup-container .bee-popup-row-content.reverse,
+		.bee-popup-container .bee-popup-row-content.reverse .bee-popup-col {
+			-moz-transform: scale(1, -1);
+			-webkit-transform: scale(1, -1);
+			-o-transform: scale(1, -1);
+			-ms-transform: scale(1, -1);
+			transform: scale(1, -1)
+		}
+
+		.bee-popup-container .bee-popup-row-content .bee-popup-col-w5 {
+			flex: 5
+		}
+
+		.bee-popup-container .bee-popup-row-content .bee-popup-col-w7 {
+			flex: 7
+		}
+
+		.bee-popup-button-content {
+			text-align: center
+		}
+
+		.bee-popup-image {
+			overflow: auto
+		}
+
+		.bee-popup-image .bee-popup-center {
+			margin: 0 auto
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-1,
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-1 {
+			width: 100%
+		}
+
+		.bee-popup-image img {
+			display: block;
+			width: 100%
+		}
+
+		.bee-popup-paragraph {
+			overflow-wrap: anywhere
+		}
+
+		.bee-popup-row-1 {
+			background-repeat: no-repeat
+		}
+
+		.bee-popup-row-1 .bee-popup-row-content {
+			background-repeat: no-repeat;
+			color: #000000
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			border-radius: 4px
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 {
+			background-color: #d6effd;
+			padding: 20px 10px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			border-radius: 4px
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-2 {
+			padding-bottom: 10px;
+			padding-top: 20px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-3 {
+			padding-bottom: 15px;
+			padding-top: 10px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-4 {
+			padding-left: 10px;
+			padding-right: 10px;
+			color: #6d6d6d;
+			direction: ltr;
+			font-size: 14px;
+			font-weight: 700;
+			letter-spacing: 0;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-6 {
+			padding: 5px 10px 15px
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-7 {
+			padding: 10px;
+			text-align: center
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-8 {
+			padding-left: 10px;
+			padding-right: 10px
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-2 h1 {
+			color: #00848e;
+			direction: ltr;
+			font-family: Georgia, Times, "Times New Roman", serif;
+			font-size: 22px;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-3 h2,
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-8 {
+			font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Geneva, Verdana, sans-serif;
+			line-height: 120%;
+			text-align: center;
+			direction: ltr
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-4 p:not(:last-child),
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 p:not(:last-child),
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-6 p:not(:last-child),
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-8 p:not(:last-child) {
+			margin-bottom: 16px
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-3 h2 {
+			color: #00848e;
+			font-size: 26px;
+			font-weight: 700;
+			letter-spacing: normal
+		}
+
+		@media (max-width:520px) {
+			.bee-popup-row-content:not(.no_stack) {
+				display: block;
+				max-width: 250px
+			}
+
+			.bee-popup-row-1 .bee-popup-col-1 {
+				padding: 15px 0 0 !important
+			}
+
+			.bee-popup-row-1 .bee-popup-col-2 {
+				padding: 20px 10px !important
+			}
+
+			.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-2 {
+				padding: 15px 0 5px
+			}
+
+			.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-2 h1 {
+				font-size: 22px
+			}
+
+			.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-3 h2 {
+				font-size: 30px
+			}
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 {
+			color: #2c2c2c;
+			direction: ltr;
+			font-size: 40px;
+			font-weight: 700;
+			letter-spacing: 0;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-6 {
+			color: #6d6d6d;
+			direction: ltr;
+			font-size: 16px;
+			font-weight: 700;
+			letter-spacing: 0;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-8 {
+			color: #6d6d6d;
+			font-size: 12px;
+			font-weight: 400;
+			letter-spacing: 0
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-7 div:hover {
+			background-color: #236873 !important;
+			border-bottom: 0 solid transparent !important;
+			border-left: 0 solid transparent !important;
+			border-right: 0px solid transparent !important;
+			border-top: 0 solid transparent !important;
+			color: #fff !important
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-7 div {
+			background-color: #00848e;
+			border-radius: 4px;
+			color: #ffffff;
+			direction: ltr;
+			font-family: inherit;
+			font-size: 16px;
+			font-weight: 700;
+			letter-spacing: 0;
+			line-height: 200%;
+			padding: 5px 30px;
+			width: auto
+		}
+	</style>
+	<div class="bee-popup-rows-container">
+		<div class="bee-popup-row bee-popup-row-1">
+			<div class="bee-popup-row-content reverse">
+				<div class="bee-popup-col bee-popup-col-1 bee-popup-col-w7">
+					<div class="bee-popup-block bee-popup-block-1 bee-popup-image"><img class="bee-popup-center bee-popup-autowidth" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeDemo003/b5736b5d-2500-4d4e-b628-eecffbd78101/popup/overloaded-collage-with-summertime-essentials-people%201.png" style="max-width:291px;" alt="Summer image" /></div>
+				</div>
+				<div class="bee-popup-col bee-popup-col-2 bee-popup-col-w5">
+					<div class="bee-popup-block bee-popup-block-1 bee-popup-image"><img class="bee-popup-center bee-popup-fixedwidth" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeDemo003/b5736b5d-2500-4d4e-b628-eecffbd78101/popup/your-logo.png" style="max-width:113px;" alt="Your logo" /></div>
+					<div class="bee-popup-block bee-popup-block-2 bee-popup-heading">
+						<h1><u><em><span class="tinyMce-placeholder">Summer Sale</span></em></u> </h1>
+					</div>
+					<div class="bee-popup-block bee-popup-block-3 bee-popup-heading">
+						<h2><span class="tinyMce-placeholder">EXCLUSIVE<br>OFFERS</span> </h2>
+					</div>
+					<div class="bee-popup-block bee-popup-block-4 bee-popup-paragraph">
+						<p>UP TO</p>
+					</div>
+					<div class="bee-popup-block bee-popup-block-5 bee-popup-paragraph">
+						<p>25% off</p>
+					</div>
+					<div class="bee-popup-block bee-popup-block-6 bee-popup-paragraph">
+						<p>Don’t miss out!</p>
+					</div>
+					<div class="bee-popup-block bee-popup-block-7 bee-popup-button">
+						<div style="font-size: 16px; display: inline-block;" class="bee-popup-button-content"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">SEE DEALS</span></div>
+					</div>
+					<div class="bee-popup-block bee-popup-block-8 bee-popup-paragraph">
+						<p>No thanks.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

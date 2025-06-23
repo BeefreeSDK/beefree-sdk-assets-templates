@@ -1,0 +1,405 @@
+<div class="bee-popup-container">
+	<style>
+		.bee-popup-container code,
+		.bee-popup-container div,
+		.bee-popup-container form,
+		.bee-popup-container h1,
+		.bee-popup-container h2,
+		.bee-popup-container p {
+			margin: 0;
+			padding: 0
+		}
+
+		.bee-popup-container img {
+			border: 0
+		}
+
+		.bee-popup-container code {
+			font-style: normal;
+			font-weight: 400
+		}
+
+		.bee-popup-container h1,
+		.bee-popup-container h2 {
+			font-size: 100%;
+			font-weight: 400
+		}
+
+		.bee-popup-container input {
+			font-family: inherit;
+			font-size: inherit;
+			font-weight: inherit
+		}
+
+		.bee-popup-container {
+			color: #000000;
+			font-family: Arial, Helvetica Neue, Helvetica, sans-serif
+		}
+
+		.bee-popup-container * {
+			box-sizing: border-box
+		}
+
+		.bee-popup-container a {
+			color: #0068A5
+		}
+
+		.bee-popup-container p,
+		h1,
+		h2 {
+			margin: 0
+		}
+
+		.bee-popup-container .bee-popup-row {
+			position: relative
+		}
+
+		.bee-popup-container .bee-popup-row-content {
+			max-width: 500px;
+			position: relative;
+			margin: 0 auto;
+			display: flex
+		}
+
+		.bee-popup-container .bee-popup-row-content.reverse,
+		.bee-popup-container .bee-popup-row-content.reverse .bee-popup-col {
+			-moz-transform: scale(1, -1);
+			-webkit-transform: scale(1, -1);
+			-o-transform: scale(1, -1);
+			-ms-transform: scale(1, -1);
+			transform: scale(1, -1)
+		}
+
+		.bee-popup-container .bee-popup-row-content .bee-popup-col-w6 {
+			flex: 6
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 .bee-popup-button-container {
+			text-align: center
+		}
+
+		.bee-popup-image {
+			overflow: auto
+		}
+
+		.bee-popup-image .bee-popup-center {
+			margin: 0 auto
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-1,
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-1,
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 .bee-popup-form-row:not(.bee-popup-sidelabel) input:not([type=checkbox]):not([type=radio]) {
+			width: 100%
+		}
+
+		.bee-popup-form .bee-popup-form-row .bee-popup-field {
+			padding: 3px;
+			display: flex;
+			flex: 1;
+			flex-wrap: wrap;
+			align-items: center
+		}
+
+		.bee-popup-form .bee-popup-form-row .bee-popup-field.bee-popup-inline-field {
+			flex-wrap: nowrap;
+			align-items: flex-start;
+			display: block
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 .bee-popup-form-choices-wrapper {
+			display: flex;
+			flex-direction: column
+		}
+
+		.bee-popup-form .bee-popup-form-row .bee-popup-field .bee-popup-form-option-wrapper {
+			align-items: flex-start;
+			display: inline-flex
+		}
+
+		.bee-popup-form .bee-popup-form-row .bee-popup-field .bee-popup-form-option-wrapper>input,
+		.bee-popup-form .bee-popup-form-row .bee-popup-field input[type=radio] {
+			margin: 0 0 0 3px
+		}
+
+		.bee-popup-form .bee-popup-form-row .bee-popup-field .bee-popup-form-option-wrapper>label {
+			min-width: 0
+		}
+
+		.bee-popup-form .bee-popup-form-row .bee-popup-field input:not([type=checkbox]):not([type=radio]) {
+			flex-grow: 1;
+			font-family: inherit;
+			font-size: inherit
+		}
+
+		.bee-popup-form .bee-popup-form-row .bee-popup-field input[type=radio]:not(:first-of-type) {
+			margin-left: 15px
+		}
+
+		.bee-popup-form .bee-popup-form-row .bee-popup-field button {
+			font-family: inherit;
+			font-size: inherit;
+			cursor: pointer
+		}
+
+		.bee-popup-form .bee-popup-form-row .bee-popup-field .bee-popup-button-container {
+			flex-grow: 1
+		}
+
+		.bee-popup-image img {
+			display: block;
+			width: 100%
+		}
+
+		.bee-popup-paragraph {
+			overflow-wrap: anywhere
+		}
+
+		.bee-popup-row-1 {
+			background-repeat: no-repeat
+		}
+
+		.bee-popup-row-1 .bee-popup-row-content {
+			background-repeat: no-repeat;
+			border-radius: 0;
+			color: #000000
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 {
+			display: flex;
+			flex-direction: column;
+			justify-content: center
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 {
+			padding-bottom: 10px;
+			padding-left: 10px;
+			padding-top: 10px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-2 {
+			padding-top: 40px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-3 {
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-4 {
+			padding: 10px
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 {
+			font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+			font-size: 14px;
+			font-weight: 400;
+			padding: 10px;
+			text-align: center
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-2 h1,
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-3 h2,
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-4,
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-6 {
+			direction: ltr;
+			font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-6 {
+			padding-left: 10px;
+			padding-right: 10px
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-3 h2 {
+			color: #2c2c2c;
+			font-size: 36px;
+			font-weight: 700;
+			letter-spacing: normal
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-2 h1 {
+			color: #2c2c2c;
+			font-size: 22px;
+			font-weight: 700;
+			letter-spacing: normal
+		}
+
+		@media (max-width:520px) {
+			.bee-popup-form form {
+				width: 100% !important
+			}
+
+			.bee-popup-row-content:not(.no_stack) {
+				display: block;
+				max-width: 250px
+			}
+
+			.bee-popup-row-1 .bee-popup-col-1 {
+				padding: 0 !important
+			}
+
+			.bee-popup-row-1 .bee-popup-col-2 {
+				padding: 20px 5px 10px !important
+			}
+
+			.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-2 {
+				padding: 20px 0 10px
+			}
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-4 {
+			color: #6d6d6d;
+			font-size: 14px;
+			font-weight: 400;
+			letter-spacing: 0
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-4 a,
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-6 a {
+			color: #6d6d6d
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-4 p:not(:last-child),
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-6 p:not(:last-child) {
+			margin-bottom: 16px
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-6 {
+			color: #6d6d6d;
+			font-size: 12px;
+			font-weight: 400;
+			letter-spacing: 0
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 form {
+			display: inline-block;
+			width: 100%
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 div.label,
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 label {
+			color: #2c2c2c;
+			letter-spacing: 0;
+			line-height: 200%;
+			text-align: center;
+			display: block
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 div.label:not(.inline),
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 label:not(.inline) {
+			flex-basis: 100%
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 ::-webkit-input-placeholder {
+			color: #2c2c2c
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 :-moz-placeholder {
+			color: #2c2c2c
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 ::-moz-placeholder {
+			color: #2c2c2c
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 :-ms-input-placeholder {
+			color: #2c2c2c
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 .bee-popup-field>label:first-child,
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 div.label {
+			padding: 3px
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 .bee-popup-field.bee-popup-inline-field input[type=radio] {
+			position: relative;
+			color: purple;
+			top: 8px
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 input:not([type=checkbox]):not([type=radio]):not([type=image]) {
+			background-color: #ffffff;
+			border-bottom: 1px solid #bdbdbd;
+			border-left: 1px solid #bdbdbd;
+			border-radius: 0;
+			border-right: 1px solid #bdbdbd;
+			border-top: 1px solid #bdbdbd;
+			color: #2c2c2c;
+			padding: 5px;
+			min-height: 38px
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 input:not([type=checkbox]):not([type=radio]):focus {
+			outline-color: #2c2c2c
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 button {
+			background-color: #2c2c2c;
+			border-bottom: 0 solid transparent;
+			border-left: 0 solid transparent;
+			border-radius: 0;
+			border-right: 0px solid transparent;
+			border-top: 0 solid transparent;
+			color: #ffffff;
+			letter-spacing: 0;
+			line-height: 200%;
+			padding: 5px 20px;
+			width: 100%
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-5 .bee-popup-form-options-horizontal-orientation-wrapper {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			column-gap: 15px;
+			width: 100%;
+			justify-content: center
+		}
+	</style>
+	<div class="bee-popup-rows-container">
+		<div class="bee-popup-row bee-popup-row-1">
+			<div class="bee-popup-row-content reverse">
+				<div class="bee-popup-col bee-popup-col-1 bee-popup-col-w6">
+					<div class="bee-popup-block bee-popup-block-1 bee-popup-image"><img class="bee-popup-center bee-popup-fixedwidth" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeDemo003/b5736b5d-2500-4d4e-b628-eecffbd78101/popup/blonde-woman-straw-hat-standing-near-wall-with-barefoot%201.png" style="max-width:250px;" alt="Fashion woman" /></div>
+				</div>
+				<div class="bee-popup-col bee-popup-col-2 bee-popup-col-w6">
+					<div class="bee-popup-block bee-popup-block-1 bee-popup-image"><img class="bee-popup-center bee-popup-fixedwidth" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeDemo003/b5736b5d-2500-4d4e-b628-eecffbd78101/popup/your-logo.png" style="max-width:120px;" alt="Your logo" /></div>
+					<div class="bee-popup-block bee-popup-block-2 bee-popup-heading">
+						<h1>You’ve Received </h1>
+					</div>
+					<div class="bee-popup-block bee-popup-block-3 bee-popup-heading">
+						<h2>15% off </h2>
+					</div>
+					<div class="bee-popup-block bee-popup-block-4 bee-popup-paragraph">
+						<p>Enter your information below to activate your code</p>
+					</div>
+					<div class="bee-popup-block bee-popup-block-5 bee-popup-form">
+						<form>
+							<div class="bee-popup-form-row">
+								<div class="bee-popup-field bee-popup-field-r0c1m4i2"><label for="r0c1m4i2">EMAIL ADDRESS</label><input id="r0c1m4i2" name="email" type="email" /></div>
+							</div>
+							<div class="bee-popup-form-row">
+								<div class="bee-popup-field bee-popup-field-r0c1m4i4 bee-popup-inline-field"><span class="bee-popup-form-choices-wrapper"><span class="bee-popup-form-options-horizontal-orientation-wrapper"><span class="bee-popup-form-option-wrapper"><input id="r0c1m4i4_1" type="radio" name="privacy" value="Women" /><label class="inline" for="r0c1m4i4_1">&nbsp;Women</label></span><span class="bee-popup-form-option-wrapper"><input id="r0c1m4i4_2" type="radio" name="privacy" value="Men" /><label class="inline" for="r0c1m4i4_2">&nbsp;Men</label></span><span class="bee-popup-form-option-wrapper"><input id="r0c1m4i4_3" type="radio" name="privacy" value="Both" /><label class="inline" for="r0c1m4i4_3">&nbsp;Both</label></span></span></span></div>
+							</div>
+							<div class="bee-popup-form-row">
+								<div class="bee-popup-field bee-popup-field-r0c1m4i5">
+									<div class="bee-popup-button-container"><button id="r0c1m4i5" name="submit" type="submit" value="GET MY 15% OFF">GET MY 15% OFF</button></div>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="bee-popup-block bee-popup-block-6 bee-popup-paragraph">
+						<p><a href="#" target="_blank" class="" style="text-decoration: underline;" data-segment="1.2" rel="noopener">Decline offer</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

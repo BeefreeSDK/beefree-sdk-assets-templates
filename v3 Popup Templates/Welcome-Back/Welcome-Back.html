@@ -1,0 +1,317 @@
+<div class="bee-popup-container">
+	<style>
+		.bee-popup-row-1,
+		.bee-popup-row-1 .bee-popup-row-content,
+		.bee-popup-row-2,
+		.bee-popup-row-3 {
+			background-color: #fdf7f0;
+			background-repeat: no-repeat
+		}
+
+		.bee-popup-container div,
+		.bee-popup-container h1,
+		.bee-popup-container p {
+			margin: 0;
+			padding: 0
+		}
+
+		.bee-popup-container img {
+			border: 0
+		}
+
+		.bee-popup-container h1 {
+			font-size: 100%;
+			font-weight: 400
+		}
+
+		.bee-popup-container {
+			color: #000000;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+		}
+
+		.bee-popup-container * {
+			box-sizing: border-box
+		}
+
+		.bee-popup-container p,
+		h1 {
+			margin: 0
+		}
+
+		.bee-popup-container .bee-popup-row {
+			position: relative
+		}
+
+		.bee-popup-container .bee-popup-row-content {
+			max-width: 500px;
+			position: relative;
+			margin: 0 auto;
+			display: flex
+		}
+
+		.bee-popup-container .bee-popup-row-content .bee-popup-col-w6 {
+			flex: 6
+		}
+
+		.bee-popup-container .bee-popup-row-content .bee-popup-col-w12 {
+			flex: 12
+		}
+
+		.bee-popup-button-content {
+			text-align: center
+		}
+
+		.bee-popup-image {
+			overflow: auto
+		}
+
+		.bee-popup-image .bee-popup-center {
+			margin: 0 auto
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-1,
+		.bee-popup-row-2 .bee-popup-col-1 .bee-popup-block-1,
+		.bee-popup-row-2 .bee-popup-col-2 .bee-popup-block-1 {
+			width: 100%
+		}
+
+		.bee-popup-image img {
+			display: block;
+			width: 100%
+		}
+
+		.bee-popup-paragraph {
+			overflow-wrap: anywhere
+		}
+
+		.bee-popup-row-1 .bee-popup-row-content {
+			color: #000000
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 {
+			padding-bottom: 5px;
+			padding-top: 30px
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-2 {
+			padding-bottom: 10px;
+			padding-top: 20px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-3,
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-4 {
+			padding-bottom: 10px;
+			padding-left: 10px;
+			padding-right: 10px
+		}
+
+		.bee-popup-row-2 .bee-popup-row-content,
+		.bee-popup-row-3 .bee-popup-row-content {
+			background-color: #fdf7f0;
+			background-repeat: no-repeat;
+			border-radius: 0;
+			color: #000000;
+			padding-left: 20px;
+			padding-right: 20px
+		}
+
+		.bee-popup-row-2 .bee-popup-col-1,
+		.bee-popup-row-2 .bee-popup-col-2 {
+			padding-bottom: 5px;
+			padding-top: 5px
+		}
+
+		.bee-popup-row-3 .bee-popup-col-1,
+		.bee-popup-row-3 .bee-popup-col-2 {
+			padding-bottom: 20px;
+			padding-top: 5px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center
+		}
+
+		.bee-popup-row-3 .bee-popup-col-1 .bee-popup-block-1 {
+			padding-bottom: 10px;
+			padding-top: 10px;
+			text-align: right
+		}
+
+		.bee-popup-row-3 .bee-popup-col-2 .bee-popup-block-1 {
+			padding-bottom: 10px;
+			padding-top: 10px;
+			text-align: left
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-2 h1 {
+			color: #c86f0a;
+			direction: ltr;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 30px;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-3 {
+			color: #1f1f1f;
+			direction: ltr;
+			font-size: 20px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-3 p:not(:last-child),
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-4 p:not(:last-child) {
+			margin-bottom: 16px
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-4 {
+			color: #1f1f1f;
+			direction: ltr;
+			font-size: 26px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-popup-row-3 .bee-popup-col-1 .bee-popup-block-1 div,
+		.bee-popup-row-3 .bee-popup-col-2 .bee-popup-block-1 div {
+			border-bottom: 1px solid #1f1f1f;
+			border-left: 1px solid #1f1f1f;
+			border-radius: 0;
+			border-right: 1px solid #1f1f1f;
+			border-top: 1px solid #1f1f1f;
+			direction: ltr;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			letter-spacing: 0;
+			line-height: 200%;
+			width: auto
+		}
+
+		.bee-popup-row-3 .bee-popup-col-1 .bee-popup-block-1 div {
+			background-color: #1f1f1f;
+			color: #ffffff;
+			font-size: 16px;
+			font-weight: 700;
+			padding: 5px 30px
+		}
+
+		@media (max-width:520px) {
+			.bee-popup-row-content:not(.no_stack) {
+				display: block;
+				max-width: 250px
+			}
+
+			.bee-popup-row-2 .bee-popup-row-content {
+				padding: 0 10px !important
+			}
+
+			.bee-popup-row-2 .bee-popup-col-1,
+			.bee-popup-row-2 .bee-popup-col-2 {
+				padding: 0 !important
+			}
+
+			.bee-popup-row-3 .bee-popup-col-1 {
+				padding: 15px 0 0 !important
+			}
+
+			.bee-popup-row-3 .bee-popup-col-2 {
+				padding: 0 0 20px !important
+			}
+
+			.bee-popup-row-2 .bee-popup-col-1,
+			.bee-popup-row-3 .bee-popup-col-1 {
+				margin-bottom: 10px !important
+			}
+
+			.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-3 {
+				font-size: 18px !important
+			}
+
+			.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-4 {
+				padding: 0 10px 15px !important
+			}
+
+			.bee-popup-row-3 .bee-popup-col-1 .bee-popup-block-1 {
+				padding: 10px 0 0 !important;
+				text-align: center !important
+			}
+
+			.bee-popup-row-3 .bee-popup-col-1 .bee-popup-block-1 .bee-popup-button-content {
+				font-size: initial !important;
+				line-height: normal !important;
+				text-align: center !important
+			}
+
+			.bee-popup-row-3 .bee-popup-col-1 .bee-popup-block-1 span {
+				text-align: center !important;
+				font-size: 18px !important;
+				line-height: auto !important
+			}
+
+			.bee-popup-row-3 .bee-popup-col-2 .bee-popup-block-1 {
+				padding: 10px 0 !important;
+				text-align: center !important
+			}
+
+			.bee-popup-row-3 .bee-popup-col-2 .bee-popup-block-1 .bee-popup-button-content {
+				text-align: center !important
+			}
+		}
+
+		.bee-popup-row-3 .bee-popup-col-2 .bee-popup-block-1 div {
+			color: #1f1f1f;
+			font-size: 14px;
+			font-weight: 400;
+			padding: 7px 25px
+		}
+	</style>
+	<div class="bee-popup-rows-container">
+		<div class="bee-popup-row bee-popup-row-1">
+			<div class="bee-popup-row-content">
+				<div class="bee-popup-col bee-popup-col-1 bee-popup-col-w12">
+					<div class="bee-popup-block bee-popup-block-1 bee-popup-image"><img class="bee-popup-center bee-popup-fixedwidth" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeDemo003/b5736b5d-2500-4d4e-b628-eecffbd78101/popup/your-logo.png" style="max-width:100px;" alt="your logo" /></div>
+					<div class="bee-popup-block bee-popup-block-2 bee-popup-heading">
+						<h1>WELCOME BACK! </h1>
+					</div>
+					<div class="bee-popup-block bee-popup-block-3 bee-popup-paragraph">
+						<p>We have this product discounted just for you!</p>
+					</div>
+					<div class="bee-popup-block bee-popup-block-4 bee-popup-paragraph">
+						<p><span style="text-decoration: line-through;">$100</span> <strong><span style="color: #c86f0a;">$70</span></strong></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-popup-row bee-popup-row-2">
+			<div class="bee-popup-row-content" style="gap:10px;">
+				<div class="bee-popup-col bee-popup-col-1 bee-popup-col-w6">
+					<div class="bee-popup-block bee-popup-block-1 bee-popup-image"><img class="bee-popup-center bee-popup-autowidth" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeDemo003/b5736b5d-2500-4d4e-b628-eecffbd78101/popup/bag01.png" style="max-width:230px;" alt="Orange bag" /></div>
+				</div>
+				<div class="bee-popup-col bee-popup-col-2 bee-popup-col-w6">
+					<div class="bee-popup-block bee-popup-block-1 bee-popup-image"><img class="bee-popup-center bee-popup-autowidth" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeDemo003/b5736b5d-2500-4d4e-b628-eecffbd78101/popup/bag02.png" style="max-width:230px;" alt="Orange bag" /></div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-popup-row bee-popup-row-3">
+			<div class="bee-popup-row-content" style="gap:10px;">
+				<div class="bee-popup-col bee-popup-col-1 bee-popup-col-w6">
+					<div class="bee-popup-block bee-popup-block-1 bee-popup-button">
+						<div style="font-size: 16px; display: inline-block;" class="bee-popup-button-content"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">ADD TO CART</span></div>
+					</div>
+				</div>
+				<div class="bee-popup-col bee-popup-col-2 bee-popup-col-w6">
+					<div class="bee-popup-block bee-popup-block-1 bee-popup-button">
+						<div style="font-size: 14px; display: inline-block;" class="bee-popup-button-content"><span style="word-break: break-word; font-size: 14px; line-height: 200%; letter-spacing: normal;">View similar items</span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

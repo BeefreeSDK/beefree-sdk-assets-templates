@@ -1,0 +1,406 @@
+<div class="bee-popup-container">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;display=swap" rel="stylesheet" type="text/css" />
+	<style>
+		.bee-popup-container div,
+		.bee-popup-container form,
+		.bee-popup-container h1,
+		.bee-popup-container p {
+			margin: 0;
+			padding: 0
+		}
+
+		.bee-popup-container img {
+			border: 0
+		}
+
+		.bee-popup-container h1 {
+			font-size: 100%;
+			font-weight: 400
+		}
+
+		.bee-popup-container input {
+			font-family: inherit;
+			font-size: inherit;
+			font-weight: inherit
+		}
+
+		.bee-popup-container {
+			color: #000000;
+			font-family: Arial, Helvetica Neue, Helvetica, sans-serif
+		}
+
+		.bee-popup-container * {
+			box-sizing: border-box
+		}
+
+		.bee-popup-container a {
+			color: #0068A5
+		}
+
+		.bee-popup-container p,
+		h1 {
+			margin: 0
+		}
+
+		.bee-popup-container .bee-popup-row {
+			position: relative
+		}
+
+		.bee-popup-container .bee-popup-row-content {
+			max-width: 500px;
+			position: relative;
+			margin: 0 auto;
+			display: flex
+		}
+
+		.bee-popup-container .bee-popup-row-content .bee-popup-col-w4 {
+			flex: 4
+		}
+
+		.bee-popup-container .bee-popup-row-content .bee-popup-col-w8 {
+			flex: 8
+		}
+
+		.bee-popup-container .bee-popup-row-content .bee-popup-col-w12 {
+			flex: 12
+		}
+
+		.bee-popup-image {
+			overflow: auto
+		}
+
+		.bee-popup-image .bee-popup-center {
+			margin: 0 auto
+		}
+
+		.bee-popup-form .bee-popup-form-row.bee-popup-form-row-multicolumn {
+			display: flex
+		}
+
+		.bee-popup-form .bee-popup-form-row.bee-popup-form-row-multicolumn input:not([type=checkbox]):not([type=radio]),
+		.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-1,
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-1,
+		.bee-popup-row-2 .bee-popup-col-1 .bee-popup-block-1 .bee-popup-form-row:not(.bee-popup-sidelabel) input:not([type=checkbox]):not([type=radio]) {
+			width: 100%
+		}
+
+		.bee-popup-form .bee-popup-form-row .bee-popup-field {
+			padding: 3px;
+			display: flex;
+			flex: 1;
+			flex-wrap: wrap;
+			align-items: center
+		}
+
+		.bee-popup-form .bee-popup-form-row .bee-popup-field.bee-popup-inline-field {
+			flex-wrap: nowrap;
+			align-items: flex-start;
+			display: block
+		}
+
+		@media (min-width:768px) {
+			.bee-popup-form .bee-popup-form-row .bee-popup-field.bee-popup-half-width {
+				width: 50%
+			}
+		}
+
+		.bee-popup-row-2 .bee-popup-col-1 .bee-popup-block-1 .bee-popup-form-choices-wrapper {
+			display: flex;
+			flex-direction: column
+		}
+
+		.bee-popup-form .bee-popup-form-row .bee-popup-field .bee-popup-form-option-wrapper {
+			align-items: flex-start;
+			display: inline-flex
+		}
+
+		.bee-popup-form .bee-popup-form-row .bee-popup-field .bee-popup-form-option-wrapper>input,
+		.bee-popup-form .bee-popup-form-row .bee-popup-field input[type=radio] {
+			margin: 0 0 0 3px
+		}
+
+		.bee-popup-form .bee-popup-form-row .bee-popup-field .bee-popup-form-option-wrapper>label {
+			min-width: 0
+		}
+
+		.bee-popup-form .bee-popup-form-row .bee-popup-field input:not([type=checkbox]):not([type=radio]) {
+			flex-grow: 1;
+			font-family: inherit;
+			font-size: inherit
+		}
+
+		.bee-popup-form .bee-popup-form-row .bee-popup-field input[type=radio]:not(:first-of-type) {
+			margin-left: 15px
+		}
+
+		.bee-popup-form .bee-popup-form-row .bee-popup-field button {
+			font-family: inherit;
+			font-size: inherit;
+			cursor: pointer
+		}
+
+		.bee-popup-form .bee-popup-form-row .bee-popup-field .bee-popup-button-container {
+			flex-grow: 1
+		}
+
+		.bee-popup-image img {
+			display: block;
+			width: 100%
+		}
+
+		.bee-popup-paragraph {
+			overflow-wrap: anywhere
+		}
+
+		.bee-popup-row-1,
+		.bee-popup-row-2 {
+			background-repeat: no-repeat
+		}
+
+		.bee-popup-row-1 .bee-popup-row-content {
+			background-repeat: no-repeat;
+			color: #000000
+		}
+
+		.bee-popup-row-1 .bee-popup-col-1 {
+			padding-bottom: 20px;
+			padding-top: 5px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 {
+			padding-bottom: 20px;
+			padding-right: 20px;
+			padding-top: 5px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-2 {
+			padding-top: 10px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-3 {
+			padding-right: 10px;
+			padding-top: 10px
+		}
+
+		.bee-popup-row-2 .bee-popup-row-content {
+			background-repeat: no-repeat;
+			border-radius: 0;
+			color: #000000
+		}
+
+		.bee-popup-row-2 .bee-popup-col-1 {
+			background-color: #e8f6f2;
+			padding-bottom: 5px;
+			padding-top: 5px;
+			border-radius: 8px
+		}
+
+		.bee-popup-row-2 .bee-popup-col-1 .bee-popup-block-1 {
+			font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			font-weight: 700;
+			padding: 10px 20px 20px;
+			text-align: left
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-2 h1,
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-3 {
+			direction: ltr;
+			font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			line-height: 120%;
+			text-align: left
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-3 {
+			color: #2c3e50;
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 0
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-3 a {
+			color: #2c3e50
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-3 p:not(:last-child) {
+			margin-bottom: 16px
+		}
+
+		.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-2 h1 {
+			color: #219653;
+			font-size: 34px;
+			font-weight: 700;
+			letter-spacing: normal
+		}
+
+		@media (max-width:520px) {
+			.bee-popup-form-row-multicolumn {
+				display: block !important
+			}
+
+			.bee-popup-form form {
+				width: 100% !important
+			}
+
+			.bee-popup-row-content:not(.no_stack) {
+				display: block;
+				max-width: 250px
+			}
+
+			.bee-popup-row-1 .bee-popup-col-1,
+			.bee-popup-row-1 .bee-popup-col-2 {
+				padding: 5px 10px 20px !important
+			}
+
+			.bee-popup-row-1 .bee-popup-col-1 .bee-popup-block-1 img {
+				float: left !important;
+				margin: auto !important
+			}
+
+			.bee-popup-row-1 .bee-popup-col-2 .bee-popup-block-2 h1 {
+				font-size: 26px
+			}
+		}
+
+		.bee-popup-row-2 .bee-popup-col-1 .bee-popup-block-1 form {
+			display: inline-block;
+			width: 100%
+		}
+
+		.bee-popup-row-2 .bee-popup-col-1 .bee-popup-block-1 div.label,
+		.bee-popup-row-2 .bee-popup-col-1 .bee-popup-block-1 label {
+			color: #2c3e50;
+			letter-spacing: 0;
+			line-height: 200%;
+			text-align: left;
+			display: block
+		}
+
+		.bee-popup-row-2 .bee-popup-col-1 .bee-popup-block-1 div.label:not(.inline),
+		.bee-popup-row-2 .bee-popup-col-1 .bee-popup-block-1 label:not(.inline) {
+			flex-basis: 100%
+		}
+
+		.bee-popup-row-2 .bee-popup-col-1 .bee-popup-block-1 ::-webkit-input-placeholder {
+			color: #2c3e50
+		}
+
+		.bee-popup-row-2 .bee-popup-col-1 .bee-popup-block-1 :-moz-placeholder {
+			color: #2c3e50
+		}
+
+		.bee-popup-row-2 .bee-popup-col-1 .bee-popup-block-1 ::-moz-placeholder {
+			color: #2c3e50
+		}
+
+		.bee-popup-row-2 .bee-popup-col-1 .bee-popup-block-1 :-ms-input-placeholder {
+			color: #2c3e50
+		}
+
+		.bee-popup-row-2 .bee-popup-col-1 .bee-popup-block-1 .bee-popup-field>label:first-child,
+		.bee-popup-row-2 .bee-popup-col-1 .bee-popup-block-1 div.label {
+			padding: 3px
+		}
+
+		.bee-popup-row-2 .bee-popup-col-1 .bee-popup-block-1 .bee-popup-field.bee-popup-inline-field input[type=radio] {
+			position: relative;
+			color: purple;
+			top: 8px
+		}
+
+		.bee-popup-row-2 .bee-popup-col-1 .bee-popup-block-1 input:not([type=checkbox]):not([type=radio]):not([type=image]) {
+			background-color: #ffffff;
+			border-bottom: 1px solid #d1d5d8;
+			border-left: 1px solid #d1d5d8;
+			border-radius: 8px;
+			border-right: 1px solid #d1d5d8;
+			border-top: 1px solid #d1d5d8;
+			color: #2c3e50;
+			padding: 5px;
+			min-height: 38px
+		}
+
+		.bee-popup-row-2 .bee-popup-col-1 .bee-popup-block-1 input:not([type=checkbox]):not([type=radio]):focus {
+			outline-color: #27ae60
+		}
+
+		.bee-popup-row-2 .bee-popup-col-1 .bee-popup-block-1 button {
+			background-color: #27ae60;
+			border-bottom: 0 solid transparent;
+			border-left: 0 solid transparent;
+			border-radius: 4px;
+			border-right: 0px solid transparent;
+			border-top: 0 solid transparent;
+			color: #ffffff;
+			letter-spacing: 0;
+			line-height: 200%;
+			padding: 5px 20px;
+			width: 100%
+		}
+
+		.bee-popup-row-2 .bee-popup-col-1 .bee-popup-block-1 .bee-popup-button-container {
+			padding-top: 10px;
+			text-align: center
+		}
+
+		.bee-popup-row-2 .bee-popup-col-1 .bee-popup-block-1 .bee-popup-form-options-horizontal-orientation-wrapper {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			column-gap: 15px;
+			width: 100%;
+			justify-content: flex-start
+		}
+	</style>
+	<div class="bee-popup-rows-container">
+		<div class="bee-popup-row bee-popup-row-1">
+			<div class="bee-popup-row-content">
+				<div class="bee-popup-col bee-popup-col-1 bee-popup-col-w4">
+					<div class="bee-popup-block bee-popup-block-1 bee-popup-image"><img class="bee-popup-center bee-popup-fixedwidth" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeDemo003/b5736b5d-2500-4d4e-b628-eecffbd78101/popup/insurance-illo.png" style="max-width:100px;" alt="Insurance illustration" /></div>
+				</div>
+				<div class="bee-popup-col bee-popup-col-2 bee-popup-col-w8">
+					<div class="bee-popup-block bee-popup-block-1 bee-popup-image"><img class=" bee-popup-fixedwidth" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeDemo003/b5736b5d-2500-4d4e-b628-eecffbd78101/popup/insurance_logo.png" style="max-width:125px;" alt="Insurance logo" /></div>
+					<div class="bee-popup-block bee-popup-block-2 bee-popup-heading">
+						<h1><span class="tinyMce-placeholder">Get a Free Insurance Quote</span> </h1>
+					</div>
+					<div class="bee-popup-block bee-popup-block-3 bee-popup-paragraph">
+						<p>Compare rates and find the best coverage for your needs.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-popup-row bee-popup-row-2">
+			<div class="bee-popup-row-content">
+				<div class="bee-popup-col bee-popup-col-1 bee-popup-col-w12">
+					<div class="bee-popup-block bee-popup-block-1 bee-popup-form">
+						<form>
+							<div class="bee-popup-form-row bee-popup-form-row-multicolumn">
+								<div class="bee-popup-field bee-popup-field-r1c0m0i1 bee-popup-half-width"><label for="r1c0m0i1">First name</label><input id="r1c0m0i1" name="firstname" type="text" /></div>
+								<div class="bee-popup-field bee-popup-field-r1c0m0i1 bee-popup-half-width"><label for="r1c0m0i1">Last name</label><input id="r1c0m0i1" name="lastname" type="text" /></div>
+							</div>
+							<div class="bee-popup-form-row">
+								<div class="bee-popup-field bee-popup-field-r1c0m0i2"><label for="r1c0m0i2">Email</label><input id="r1c0m0i2" name="email" type="email" /></div>
+							</div>
+							<div class="bee-popup-form-row">
+								<div class="bee-popup-field bee-popup-field-r1c0m0i3 bee-popup-inline-field"><span class="bee-popup-form-choices-wrapper"><label for="r1c0m0i3">Type of Insurance</label><span class="bee-popup-form-options-horizontal-orientation-wrapper"><span class="bee-popup-form-option-wrapper"><input id="r1c0m0i3_1" type="radio" name="privacy" value="Auto" /><label class="inline" for="r1c0m0i3_1">&nbsp;Auto</label></span><span class="bee-popup-form-option-wrapper"><input id="r1c0m0i3_2" type="radio" name="privacy" value="Home" /><label class="inline" for="r1c0m0i3_2">&nbsp;Home</label></span><span class="bee-popup-form-option-wrapper"><input id="r1c0m0i3_3" type="radio" name="privacy" value="Life" /><label class="inline" for="r1c0m0i3_3">&nbsp;Life</label></span><span class="bee-popup-form-option-wrapper"><input id="r1c0m0i3_4" type="radio" name="privacy" value="Health" /><label class="inline" for="r1c0m0i3_4">&nbsp;Health</label></span></span></span></div>
+							</div>
+							<div class="bee-popup-form-row">
+								<div class="bee-popup-field bee-popup-field-r1c0m0i4">
+									<div class="bee-popup-button-container"><button id="r1c0m0i4" name="submit" type="submit" value="Get My Quote">Get My Quote</button></div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
